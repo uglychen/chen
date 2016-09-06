@@ -1,0 +1,22 @@
+\hypertarget{uniontag_svr_i_d}{}\section{tag\+Svr\+I\+D Union Reference}
+\label{uniontag_svr_i_d}\index{tag\+Svr\+I\+D@{tag\+Svr\+I\+D}}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{uniontag_svr_i_d_a0d31ed27ad5946a0db3f4de9aeff6611}{}U\+N\+D\+W\+O\+R\+D {\bfseries udw\+Ip\+Port\+I\+D}\label{uniontag_svr_i_d_a0d31ed27ad5946a0db3f4de9aeff6611}
+
+\item 
+\hypertarget{uniontag_svr_i_d_abe946aa117d0ce30749aba5df7dbed56}{}\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>WORD {\bfseries wPort}\\
+\>DWORD {\bfseries dwIp}\\
+\}; \label{uniontag_svr_i_d_abe946aa117d0ce30749aba5df7dbed56}
+\\
+
+\end{tabbing}\end{DoxyCompactItemize}
+
+
+The documentation for this union was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+mediasvr.\+h\end{DoxyCompactItemize}

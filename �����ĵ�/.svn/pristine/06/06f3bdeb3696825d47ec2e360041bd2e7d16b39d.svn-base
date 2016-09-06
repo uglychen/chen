@@ -1,0 +1,19 @@
+\hypertarget{structtag_basic_user}{}\section{tag\+Basic\+User Struct Reference}
+\label{structtag_basic_user}\index{tag\+Basic\+User@{tag\+Basic\+User}}
+Inheritance diagram for tag\+Basic\+User\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{structtag_basic_user}
+\end{center}
+\end{figure}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structtag_basic_user_a14ca2c52b3a80b5cc95311cc1614ba7f}{}unsigned int {\bfseries version}\label{structtag_basic_user_a14ca2c52b3a80b5cc95311cc1614ba7f}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+business/trans.\+h\end{DoxyCompactItemize}

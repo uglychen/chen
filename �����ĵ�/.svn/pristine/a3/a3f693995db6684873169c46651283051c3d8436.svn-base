@@ -1,0 +1,42 @@
+\hypertarget{class_c_list_basic_data_cache}{}\section{C\+List\+Basic\+Data\+Cache Class Reference}
+\label{class_c_list_basic_data_cache}\index{C\+List\+Basic\+Data\+Cache@{C\+List\+Basic\+Data\+Cache}}
+Inheritance diagram for C\+List\+Basic\+Data\+Cache\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_c_list_basic_data_cache}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_list_basic_data_cache_a7e82f7673668ff709a0305e4724988a1}{}virtual bool {\bfseries Is\+Valid} ()\label{class_c_list_basic_data_cache_a7e82f7673668ff709a0305e4724988a1}
+
+\item 
+\hypertarget{class_c_list_basic_data_cache_a4a18fd67c671910a0590399656baa829}{}virtual bool {\bfseries Release} ()\label{class_c_list_basic_data_cache_a4a18fd67c671910a0590399656baa829}
+
+\item 
+\hypertarget{class_c_list_basic_data_cache_aeaf2d99ce9a5a80974873a581ad73ebb}{}virtual void $\ast$ {\bfseries Query\+Interface} (unsigned int dw\+Query\+Ver)\label{class_c_list_basic_data_cache_aeaf2d99ce9a5a80974873a581ad73ebb}
+
+\item 
+\hypertarget{class_c_list_basic_data_cache_a9215a0beab5132683df94d414ee5c48f}{}virtual int {\bfseries Add\+Data} (unsigned int id, \hyperlink{structtag_basic_data}{P\+B\+A\+S\+I\+C\+D\+A\+T\+A} p\+Obj, char $\ast$p\+Data, unsigned short n\+Data\+Size)\label{class_c_list_basic_data_cache_a9215a0beab5132683df94d414ee5c48f}
+
+\item 
+\hypertarget{class_c_list_basic_data_cache_ac2175bc47de23c20c8ea435f745e3ce8}{}virtual void {\bfseries Clear\+Data\+By\+Id} (unsigned int id)\label{class_c_list_basic_data_cache_ac2175bc47de23c20c8ea435f745e3ce8}
+
+\item 
+\hypertarget{class_c_list_basic_data_cache_a07a1af741f3f28118b4f8012478d3e1f}{}virtual int {\bfseries Query\+Data\+List\+By\+Id} (unsigned int id, C\+Data\+Cache\+List \&data\+Cache\+List)\label{class_c_list_basic_data_cache_a07a1af741f3f28118b4f8012478d3e1f}
+
+\item 
+\hypertarget{class_c_list_basic_data_cache_af141adf7227c3561943d0458fc3477be}{}virtual int {\bfseries Query\+All\+Data} (C\+Data\+Cache\+List\+Map \&data\+Cache\+List\+Map)\label{class_c_list_basic_data_cache_af141adf7227c3561943d0458fc3477be}
+
+\item 
+\hypertarget{class_c_list_basic_data_cache_ac8ccb7eaba3411784e5adb122f83da7c}{}virtual void {\bfseries Clear\+Data} ()\label{class_c_list_basic_data_cache_ac8ccb7eaba3411784e5adb122f83da7c}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Data\+Cache/List\+Basic\+Data\+Cache.\+h\item 
+Data\+Cache/List\+Basic\+Data\+Cache.\+cpp\end{DoxyCompactItemize}

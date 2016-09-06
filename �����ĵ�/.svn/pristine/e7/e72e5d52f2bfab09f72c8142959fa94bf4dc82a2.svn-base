@@ -1,0 +1,23 @@
+\hypertarget{class_c_m_t_data_cache}{}\section{C\+M\+T\+Data\+Cache Class Reference}
+\label{class_c_m_t_data_cache}\index{C\+M\+T\+Data\+Cache@{C\+M\+T\+Data\+Cache}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_m_t_data_cache_a6505044eefb7a37f0729d3c212b1e3f6}{}void {\bfseries Set\+I\+Ios\+Push\+Interface} (\hyperlink{class_i_ios_push_interface}{I\+Ios\+Push\+Interface} $\ast$p\+I\+Ios\+Push\+Interface)\label{class_c_m_t_data_cache_a6505044eefb7a37f0729d3c212b1e3f6}
+
+\item 
+\hypertarget{class_c_m_t_data_cache_a1fe2502ac5a9d731f0f56362d412f727}{}void {\bfseries Add\+Mt\+Cache} (char $\ast$p\+Token, D\+W\+O\+R\+D dst, C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Data, W\+O\+R\+D w\+Data\+Size)\label{class_c_m_t_data_cache_a1fe2502ac5a9d731f0f56362d412f727}
+
+\item 
+\hypertarget{class_c_m_t_data_cache_a884c68d7f0b1b10022a7697bb91ce328}{}void {\bfseries Remove\+Mt\+Cache} (D\+W\+O\+R\+D dw\+Sequence\+I\+D)\label{class_c_m_t_data_cache_a884c68d7f0b1b10022a7697bb91ce328}
+
+\item 
+\hypertarget{class_c_m_t_data_cache_a235e1aa47a6beebd283da42592f10355}{}void {\bfseries Check\+Timeout\+Cache} ()\label{class_c_m_t_data_cache_a235e1aa47a6beebd283da42592f10355}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Mt\+Data\+Cache.\+h\item 
+Mt\+Data\+Cache.\+cpp\end{DoxyCompactItemize}

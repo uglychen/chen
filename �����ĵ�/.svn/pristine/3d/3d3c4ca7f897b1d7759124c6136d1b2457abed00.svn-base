@@ -1,0 +1,19 @@
+\hypertarget{structtag_user}{}\section{tag\+User Struct Reference}
+\label{structtag_user}\index{tag\+User@{tag\+User}}
+Inheritance diagram for tag\+User\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{structtag_user}
+\end{center}
+\end{figure}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structtag_user_a111d9629577fb3882f4cde350979b70b}{}unsigned long long {\bfseries addr}\label{structtag_user_a111d9629577fb3882f4cde350979b70b}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+business/trans.\+h\end{DoxyCompactItemize}

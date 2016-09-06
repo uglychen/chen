@@ -1,0 +1,22 @@
+\hypertarget{structtag_business_config}{}\section{tag\+Business\+Config Struct Reference}
+\label{structtag_business_config}\index{tag\+Business\+Config@{tag\+Business\+Config}}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structtag_business_config_afbb226ce5ef325dee80a9e3fe5231b5f}{}unsigned int {\bfseries un\+Version}\label{structtag_business_config_afbb226ce5ef325dee80a9e3fe5231b5f}
+
+\item 
+\hypertarget{structtag_business_config_a887300dbbf7321552863021a77dccd94}{}char {\bfseries sz\+Module\+Name} \mbox{[}32\mbox{]}\label{structtag_business_config_a887300dbbf7321552863021a77dccd94}
+
+\item 
+\hypertarget{structtag_business_config_a2a83ce017a4aa112256dd987a8a8c09d}{}char {\bfseries sz\+Module\+Ulr} \mbox{[}M\+A\+X\+\_\+\+P\+A\+T\+H\mbox{]}\label{structtag_business_config_a2a83ce017a4aa112256dd987a8a8c09d}
+
+\item 
+\hypertarget{structtag_business_config_a6518acb0144fc18cd046518bf74a405a}{}char {\bfseries sz\+Module\+Desc} \mbox{[}128\mbox{]}\label{structtag_business_config_a6518acb0144fc18cd046518bf74a405a}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+trans.\+cpp\end{DoxyCompactItemize}

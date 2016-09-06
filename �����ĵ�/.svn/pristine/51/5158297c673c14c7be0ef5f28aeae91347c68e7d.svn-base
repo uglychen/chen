@@ -1,0 +1,28 @@
+\hypertarget{class_i_obj_data_cache}{}\section{I\+Obj\+Data\+Cache Class Reference}
+\label{class_i_obj_data_cache}\index{I\+Obj\+Data\+Cache@{I\+Obj\+Data\+Cache}}
+Inheritance diagram for I\+Obj\+Data\+Cache\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_i_obj_data_cache}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_i_obj_data_cache_abcdb8c7551bdceb4f25e7b3867fbdf27}{}virtual void {\bfseries Add\+Data} (\hyperlink{structtag_basic_data}{P\+B\+A\+S\+I\+C\+D\+A\+T\+A} p\+Obj)=0\label{class_i_obj_data_cache_abcdb8c7551bdceb4f25e7b3867fbdf27}
+
+\item 
+\hypertarget{class_i_obj_data_cache_ae3be621457147a8fadae437fe48877ce}{}virtual void {\bfseries Remove} (unsigned int id)=0\label{class_i_obj_data_cache_ae3be621457147a8fadae437fe48877ce}
+
+\item 
+\hypertarget{class_i_obj_data_cache_aeee1aa302a37f76384cc63a230288bb8}{}virtual bool {\bfseries Query\+Data\+By\+I\+D} (unsigned int id, \hyperlink{structtag_basic_data}{P\+B\+A\+S\+I\+C\+D\+A\+T\+A} p\+Data)=0\label{class_i_obj_data_cache_aeee1aa302a37f76384cc63a230288bb8}
+
+\item 
+\hypertarget{class_i_obj_data_cache_a195ea37f0a0255ae9269268339c439b1}{}virtual int {\bfseries Query\+All\+Data} (C\+User\+Data\+Cache\+Map \&basic\+Data\+Map)=0\label{class_i_obj_data_cache_a195ea37f0a0255ae9269268339c439b1}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Data\+Cache/cache.\+h\end{DoxyCompactItemize}

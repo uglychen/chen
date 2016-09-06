@@ -1,0 +1,83 @@
+\hypertarget{class_c_business}{}\section{C\+Business Class Reference}
+\label{class_c_business}\index{C\+Business@{C\+Business}}
+Inheritance diagram for C\+Business\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=11.000000cm]{class_c_business}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_business_a1eb1f84c641f256f9fb8aff2b180cac0}{}virtual bool {\bfseries Is\+Valid} ()\label{class_c_business_a1eb1f84c641f256f9fb8aff2b180cac0}
+
+\item 
+\hypertarget{class_c_business_a26dd8ae6e78136dc63d97b3492399743}{}virtual bool {\bfseries Release} ()\label{class_c_business_a26dd8ae6e78136dc63d97b3492399743}
+
+\item 
+\hypertarget{class_c_business_aaa7762d38e37d54886dfbf7b5e4ca470}{}virtual void $\ast$ {\bfseries Query\+Interface} (D\+W\+O\+R\+D dw\+Query\+Ver)\label{class_c_business_aaa7762d38e37d54886dfbf7b5e4ca470}
+
+\item 
+\hypertarget{class_c_business_a38d69c07998a54f7810162c9a314e3b3}{}virtual int {\bfseries Init\+Business} (unsigned long long local\+Svr\+I\+D, unsigned int un\+Version, I\+Unknown\+Ex $\ast$p\+I\+Unknow\+Ex, \hyperlink{class_i_bussiness_module_m_interface}{I\+Bussiness\+Module\+M\+Interface} $\ast$p\+I\+Bussiness\+Module)\label{class_c_business_a38d69c07998a54f7810162c9a314e3b3}
+
+\item 
+\hypertarget{class_c_business_a24bec478c7008ba2107af92ff4ae1a39}{}virtual bool {\bfseries Start\+Business} ()\label{class_c_business_a24bec478c7008ba2107af92ff4ae1a39}
+
+\item 
+\hypertarget{class_c_business_acb1c371d932c5686c797edc5d3985c48}{}virtual bool {\bfseries Stop\+Business} ()\label{class_c_business_acb1c371d932c5686c797edc5d3985c48}
+
+\item 
+\hypertarget{class_c_business_a0665218fa9a19a7a811e15dda05c841a}{}virtual bool {\bfseries Register\+Cmd} ()=0\label{class_c_business_a0665218fa9a19a7a811e15dda05c841a}
+
+\item 
+\hypertarget{class_c_business_ab83f07e7ffd682beead5e2e50feff968}{}virtual bool {\bfseries On\+Recv\+Data\+From\+Local\+Svr} (unsigned int uid, C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Data, unsigned short n\+Data\+Size)=0\label{class_c_business_ab83f07e7ffd682beead5e2e50feff968}
+
+\item 
+\hypertarget{class_c_business_a70b69688510ae5d18b42703052c2f196}{}virtual bool {\bfseries On\+Recv\+Data\+From\+Remote\+Svr} (unsigned long long src\+Svr\+I\+D, C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Data, unsigned short n\+Data\+Size)=0\label{class_c_business_a70b69688510ae5d18b42703052c2f196}
+
+\item 
+\hypertarget{class_c_business_ada8583439245e65cd319316f08e1ff35}{}virtual bool {\bfseries On\+User\+Online} (unsigned int uid)=0\label{class_c_business_ada8583439245e65cd319316f08e1ff35}
+
+\item 
+\hypertarget{class_c_business_a0892e4ba79ce6d6e51fc57d99d182201}{}virtual bool {\bfseries On\+User\+Offline} (unsigned int uid)=0\label{class_c_business_a0892e4ba79ce6d6e51fc57d99d182201}
+
+\item 
+\hypertarget{class_c_business_a56b52cd9dfb18d4f42b0120356a3488c}{}virtual bool {\bfseries On\+Data\+Remote\+Synch} (unsigned long long dest)=0\label{class_c_business_a56b52cd9dfb18d4f42b0120356a3488c}
+
+\item 
+\hypertarget{class_c_business_a12c1d2e193c4d691f1572f4cd664d623}{}virtual bool {\bfseries Timer} (D\+W\+O\+R\+D current\+Time)\label{class_c_business_a12c1d2e193c4d691f1572f4cd664d623}
+
+\item 
+\hypertarget{class_c_business_ad1925a87f5f2530ff8d53fde83116197}{}virtual int {\bfseries Push\+Message} (const char $\ast$token, unsigned int dst, C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Data, unsigned short w\+Data\+Size)\label{class_c_business_ad1925a87f5f2530ff8d53fde83116197}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_business_a889c71bd6d6f4155abcbb5172a50d55e}{}\hyperlink{class_i_query_data_cache_interface}{I\+Query\+Data\+Cache\+Interface} $\ast$ {\bfseries m\+\_\+p\+Query\+Data\+Cache\+Interface}\label{class_c_business_a889c71bd6d6f4155abcbb5172a50d55e}
+
+\item 
+\hypertarget{class_c_business_a16ed89bf701547ebe3f3a49e7126aca3}{}\hyperlink{class_i_send_data}{I\+Send\+Data} $\ast$ {\bfseries m\+\_\+p\+I\+Send\+Data}\label{class_c_business_a16ed89bf701547ebe3f3a49e7126aca3}
+
+\item 
+\hypertarget{class_c_business_a4b1d8987be62daaa958be3b1c969da4c}{}\hyperlink{class_i_cmd_register}{I\+Cmd\+Register} $\ast$ {\bfseries m\+\_\+p\+I\+Cmd\+Register}\label{class_c_business_a4b1d8987be62daaa958be3b1c969da4c}
+
+\item 
+\hypertarget{class_c_business_a034953882224f4f518216bf0427d7f4c}{}\hyperlink{class_c_business_log}{C\+Business\+Log} $\ast$ {\bfseries m\+\_\+p\+Business\+Log}\label{class_c_business_a034953882224f4f518216bf0427d7f4c}
+
+\item 
+\hypertarget{class_c_business_a43719910ce4f4cadea2764342f38b659}{}\hyperlink{class_i_ios_push_interface}{I\+Ios\+Push\+Interface} $\ast$ {\bfseries m\+\_\+p\+I\+I\+O\+S\+Push}\label{class_c_business_a43719910ce4f4cadea2764342f38b659}
+
+\item 
+\hypertarget{class_c_business_adc01a531deef92fa67d33be755b18b29}{}U\+N\+D\+W\+O\+R\+D {\bfseries m\+\_\+udw\+Local\+Svr\+I\+D}\label{class_c_business_adc01a531deef92fa67d33be755b18b29}
+
+\item 
+\hypertarget{class_c_business_a625c3e3a72455ff501c6184e8a71e9a2}{}D\+W\+O\+R\+D {\bfseries m\+\_\+dw\+Version}\label{class_c_business_a625c3e3a72455ff501c6184e8a71e9a2}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+business/Business.\+h\item 
+business/Business.\+cpp\end{DoxyCompactItemize}

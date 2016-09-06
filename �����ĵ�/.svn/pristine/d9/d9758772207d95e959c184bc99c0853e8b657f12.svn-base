@@ -1,0 +1,19 @@
+\hypertarget{class_i_ios_push_interface}{}\section{I\+Ios\+Push\+Interface Class Reference}
+\label{class_i_ios_push_interface}\index{I\+Ios\+Push\+Interface@{I\+Ios\+Push\+Interface}}
+Inheritance diagram for I\+Ios\+Push\+Interface\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_i_ios_push_interface}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_i_ios_push_interface_a05b0c05aae30597002d81879ddb3f211}{}virtual int {\bfseries Push\+Message} (const char $\ast$token, unsigned int dst, C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Data, unsigned short w\+Data\+Size)=0\label{class_i_ios_push_interface_a05b0c05aae30597002d81879ddb3f211}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+business/trans.\+h\end{DoxyCompactItemize}

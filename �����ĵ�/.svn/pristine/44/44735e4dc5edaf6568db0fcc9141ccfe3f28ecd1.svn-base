@@ -1,0 +1,35 @@
+\hypertarget{structtag_room_play_info}{}\section{tag\+Room\+Play\+Info Struct Reference}
+\label{structtag_room_play_info}\index{tag\+Room\+Play\+Info@{tag\+Room\+Play\+Info}}
+Inheritance diagram for tag\+Room\+Play\+Info\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{structtag_room_play_info}
+\end{center}
+\end{figure}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structtag_room_play_info_a6ee22db7df8ae47c03e4678f1058c79a}{}unsigned char {\bfseries n\+Camera\+State}\label{structtag_room_play_info_a6ee22db7df8ae47c03e4678f1058c79a}
+
+\item 
+\hypertarget{structtag_room_play_info_a64f860dbd313c927726d53a3b4fef5e0}{}unsigned char {\bfseries n\+Camera\+Screen\+Type}\label{structtag_room_play_info_a64f860dbd313c927726d53a3b4fef5e0}
+
+\item 
+\hypertarget{structtag_room_play_info_af6705b9f45bba113352f51a43147d4ed}{}unsigned char {\bfseries n\+Room\+Shutup}\label{structtag_room_play_info_af6705b9f45bba113352f51a43147d4ed}
+
+\item 
+\hypertarget{structtag_room_play_info_af87600056228f839ed88495581fab1ef}{}unsigned short {\bfseries w\+Current\+Page\+Num}\label{structtag_room_play_info_af87600056228f839ed88495581fab1ef}
+
+\item 
+\hypertarget{structtag_room_play_info_a44ffad7fce68eecb2ee159d71285699f}{}U\+L\+O\+N\+G\+\_\+\+P\+T\+R {\bfseries p\+Play\+Point\+List}\label{structtag_room_play_info_a44ffad7fce68eecb2ee159d71285699f}
+
+\item 
+\hypertarget{structtag_room_play_info_afd1451a4f84e1396e91ff121c44a8685}{}U\+L\+O\+N\+G\+\_\+\+P\+T\+R {\bfseries p\+Shutup\+List}\label{structtag_room_play_info_afd1451a4f84e1396e91ff121c44a8685}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+business/businessdef.\+h\end{DoxyCompactItemize}

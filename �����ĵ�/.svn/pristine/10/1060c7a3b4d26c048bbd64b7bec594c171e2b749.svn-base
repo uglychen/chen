@@ -1,0 +1,22 @@
+\hypertarget{class_i_data_cache_engine}{}\section{I\+Data\+Cache\+Engine Class Reference}
+\label{class_i_data_cache_engine}\index{I\+Data\+Cache\+Engine@{I\+Data\+Cache\+Engine}}
+Inheritance diagram for I\+Data\+Cache\+Engine\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_i_data_cache_engine}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_i_data_cache_engine_a2a3f30bc476620d2f0ba563bf18a5f92}{}virtual bool {\bfseries Add\+Data\+Cache} (\hyperlink{structtag_data_cache_config}{D\+A\+T\+A\+C\+A\+C\+H\+E\+C\+O\+N\+F\+I\+G} config)=0\label{class_i_data_cache_engine_a2a3f30bc476620d2f0ba563bf18a5f92}
+
+\item 
+\hypertarget{class_i_data_cache_engine_ac69f217acd9a4370f06cbc5268e743ba}{}virtual bool {\bfseries Remove\+Data\+Cache} (\hyperlink{structtag_data_cache_config}{D\+A\+T\+A\+C\+A\+C\+H\+E\+C\+O\+N\+F\+I\+G} config)=0\label{class_i_data_cache_engine_ac69f217acd9a4370f06cbc5268e743ba}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Data\+Cache/cache.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,84 @@
+\hypertarget{class_c_room_business}{}\section{C\+Room\+Business Class Reference}
+\label{class_c_room_business}\index{C\+Room\+Business@{C\+Room\+Business}}
+Inheritance diagram for C\+Room\+Business\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_c_room_business}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_room_business_acbee9ce52b3537e03b07f85f38153e79}{}virtual int {\bfseries Init\+Business} (unsigned long long local\+Svr\+I\+D, unsigned int un\+Version, I\+Unknown\+Ex $\ast$p\+I\+Unknow\+Ex, \hyperlink{class_i_bussiness_module_m_interface}{I\+Bussiness\+Module\+M\+Interface} $\ast$p\+I\+Bussiness\+Module)\label{class_c_room_business_acbee9ce52b3537e03b07f85f38153e79}
+
+\item 
+\hypertarget{class_c_room_business_a3a1e90cfb7824c55559d4af7f78dc583}{}virtual bool {\bfseries Start\+Business} ()\label{class_c_room_business_a3a1e90cfb7824c55559d4af7f78dc583}
+
+\item 
+\hypertarget{class_c_room_business_ad0dda4a5db3b91627e9084c0d5a3cedd}{}virtual bool {\bfseries Stop\+Business} ()\label{class_c_room_business_ad0dda4a5db3b91627e9084c0d5a3cedd}
+
+\item 
+\hypertarget{class_c_room_business_a6dfe27909035054f51f180e5f2b9dd0d}{}virtual bool {\bfseries Register\+Cmd} ()\label{class_c_room_business_a6dfe27909035054f51f180e5f2b9dd0d}
+
+\item 
+\hypertarget{class_c_room_business_aafcfe572e4cd3fe5c3df131f6ea29244}{}virtual bool {\bfseries On\+Recv\+Data\+From\+Local\+Svr} (unsigned int uid, C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Data, unsigned short n\+Data\+Size)\label{class_c_room_business_aafcfe572e4cd3fe5c3df131f6ea29244}
+
+\item 
+\hypertarget{class_c_room_business_a86684e6ac2e32d1cbc41ba8302e31043}{}virtual bool {\bfseries On\+Recv\+Data\+From\+Remote\+Svr} (unsigned long long src\+Svr\+I\+D, C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Data, unsigned short n\+Data\+Size)\label{class_c_room_business_a86684e6ac2e32d1cbc41ba8302e31043}
+
+\item 
+\hypertarget{class_c_room_business_a7663f641c4a6cdec3f437478bcc98f67}{}virtual int {\bfseries On\+Version\+Compatible\+Adapter} (unsigned int un\+Src\+Version, C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Data, unsigned short n\+Data\+Size)\label{class_c_room_business_a7663f641c4a6cdec3f437478bcc98f67}
+
+\item 
+\hypertarget{class_c_room_business_a286af058001b32933bd7213438fabd16}{}virtual bool {\bfseries On\+User\+Online} (unsigned int uid)\label{class_c_room_business_a286af058001b32933bd7213438fabd16}
+
+\item 
+\hypertarget{class_c_room_business_ac1dbfd4b237cc2ea41160a7512497f36}{}virtual bool {\bfseries On\+User\+Offline} (unsigned int uid)\label{class_c_room_business_ac1dbfd4b237cc2ea41160a7512497f36}
+
+\item 
+\hypertarget{class_c_room_business_a453f596a122fd7d5241cf62293dfbc82}{}virtual bool {\bfseries On\+Data\+Remote\+Synch} (unsigned long long dest)\label{class_c_room_business_a453f596a122fd7d5241cf62293dfbc82}
+
+\item 
+\hypertarget{class_c_room_business_a87b1086acef7cb0978c409aea518bd81}{}virtual int {\bfseries Init\+Business} (unsigned long long local\+Svr\+I\+D, unsigned int un\+Version, I\+Unknown\+Ex $\ast$p\+I\+Unknow\+Ex, \hyperlink{class_i_bussiness_module_m_interface}{I\+Bussiness\+Module\+M\+Interface} $\ast$p\+I\+Bussiness\+Module)\label{class_c_room_business_a87b1086acef7cb0978c409aea518bd81}
+
+\item 
+\hypertarget{class_c_room_business_a19b43e7b4c413f07f019d6eb15879931}{}virtual bool {\bfseries Start\+Business} ()\label{class_c_room_business_a19b43e7b4c413f07f019d6eb15879931}
+
+\item 
+\hypertarget{class_c_room_business_a7597f16c41032ee00d482d289d5d0ebf}{}virtual bool {\bfseries Stop\+Business} ()\label{class_c_room_business_a7597f16c41032ee00d482d289d5d0ebf}
+
+\item 
+\hypertarget{class_c_room_business_a101bbfc2d620944553f70e04bb391c13}{}virtual bool {\bfseries Register\+Cmd} ()\label{class_c_room_business_a101bbfc2d620944553f70e04bb391c13}
+
+\item 
+\hypertarget{class_c_room_business_aea9d6da452cf2a01264f9ff24155942f}{}virtual bool {\bfseries Timer} (D\+W\+O\+R\+D current\+Time)\label{class_c_room_business_aea9d6da452cf2a01264f9ff24155942f}
+
+\item 
+\hypertarget{class_c_room_business_a4f9591a4bbd3353c725f9c0aaee5e73e}{}virtual bool {\bfseries On\+Recv\+Data\+From\+Local\+Svr} (unsigned int uid, C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Data, unsigned short n\+Data\+Size)\label{class_c_room_business_a4f9591a4bbd3353c725f9c0aaee5e73e}
+
+\item 
+\hypertarget{class_c_room_business_abe7600374eb3abed06955b4e57ec2a37}{}virtual bool {\bfseries On\+Recv\+Data\+From\+Remote\+Svr} (unsigned long long src\+Svr\+I\+D, C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Data, unsigned short n\+Data\+Size)\label{class_c_room_business_abe7600374eb3abed06955b4e57ec2a37}
+
+\item 
+\hypertarget{class_c_room_business_afa9433024bca9aba9f342e959d982c09}{}virtual int {\bfseries On\+Version\+Compatible\+Adapter} (unsigned int un\+Src\+Version, C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Data, unsigned short n\+Data\+Size)\label{class_c_room_business_afa9433024bca9aba9f342e959d982c09}
+
+\item 
+\hypertarget{class_c_room_business_a5e89417842bee3f21c783e84d5d63909}{}virtual bool {\bfseries On\+User\+Online} (unsigned int uid)\label{class_c_room_business_a5e89417842bee3f21c783e84d5d63909}
+
+\item 
+\hypertarget{class_c_room_business_a989f5463507bcecce835ec627be1d82e}{}virtual bool {\bfseries On\+User\+Offline} (unsigned int uid)\label{class_c_room_business_a989f5463507bcecce835ec627be1d82e}
+
+\item 
+\hypertarget{class_c_room_business_afc0dc09ffda52f8e007431c1d423983f}{}bool {\bfseries On\+User\+Real\+Offline} (unsigned int uid)\label{class_c_room_business_afc0dc09ffda52f8e007431c1d423983f}
+
+\item 
+\hypertarget{class_c_room_business_aa83e0fa3a1d8ba7dd79340db1c683726}{}virtual bool {\bfseries On\+Data\+Remote\+Synch} (unsigned long long dest)\label{class_c_room_business_aa83e0fa3a1d8ba7dd79340db1c683726}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Room\+Business\+V1.\+5.\+0/Room\+Business.\+h\item 
+Room\+Business\+V1.\+5.\+0/Room\+Business.\+cpp\end{DoxyCompactItemize}

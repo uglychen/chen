@@ -1,0 +1,28 @@
+\hypertarget{structtag_room_live}{}\section{tag\+Room\+Live Struct Reference}
+\label{structtag_room_live}\index{tag\+Room\+Live@{tag\+Room\+Live}}
+Inheritance diagram for tag\+Room\+Live\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{structtag_room_live}
+\end{center}
+\end{figure}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structtag_room_live_a5dbfd4ab867a4008d3c2cbee7d585659}{}D\+W\+O\+R\+D {\bfseries dw\+In\+Class\+I\+D}\label{structtag_room_live_a5dbfd4ab867a4008d3c2cbee7d585659}
+
+\item 
+\hypertarget{structtag_room_live_a1dc4ee232a6021bec1bc5eb6035b6344}{}D\+W\+O\+R\+D {\bfseries dw\+Last\+Enter\+Time}\label{structtag_room_live_a1dc4ee232a6021bec1bc5eb6035b6344}
+
+\item 
+\hypertarget{structtag_room_live_a07b6f63bc2993bc3f993e834e882543d}{}D\+W\+O\+R\+D {\bfseries dw\+Last\+Leave\+Time}\label{structtag_room_live_a07b6f63bc2993bc3f993e834e882543d}
+
+\item 
+\hypertarget{structtag_room_live_ac317466f1467923a57317e5e74c43575}{}D\+W\+O\+R\+D {\bfseries dw\+Stay\+Time}\label{structtag_room_live_ac317466f1467923a57317e5e74c43575}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+business/businessdef.\+h\end{DoxyCompactItemize}

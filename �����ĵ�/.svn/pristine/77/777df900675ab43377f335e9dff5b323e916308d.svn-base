@@ -1,0 +1,31 @@
+\hypertarget{structtag_line_info}{}\section{tag\+Line\+Info Struct Reference}
+\label{structtag_line_info}\index{tag\+Line\+Info@{tag\+Line\+Info}}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structtag_line_info_aa36e9c30cbdbefa53703c9a094d7be01}{}unsigned char {\bfseries n\+Line\+Type}\label{structtag_line_info_aa36e9c30cbdbefa53703c9a094d7be01}
+
+\item 
+\hypertarget{structtag_line_info_aaaf5be9086627ac73bd70ed18b348c34}{}unsigned char {\bfseries n\+Line\+Size}\label{structtag_line_info_aaaf5be9086627ac73bd70ed18b348c34}
+
+\item 
+\hypertarget{structtag_line_info_a0c1bea8e505f20369d04943359e9cfc4}{}unsigned short {\bfseries w\+Page\+Num}\label{structtag_line_info_a0c1bea8e505f20369d04943359e9cfc4}
+
+\item 
+\hypertarget{structtag_line_info_ae59ab9acd5db19870f7a7b9928b90331}{}unsigned int {\bfseries dw\+Line\+Color}\label{structtag_line_info_ae59ab9acd5db19870f7a7b9928b90331}
+
+\item 
+\hypertarget{structtag_line_info_a6ba6e46b8eda0a408b4e7108676e773e}{}unsigned short {\bfseries w\+Canvas\+Width}\label{structtag_line_info_a6ba6e46b8eda0a408b4e7108676e773e}
+
+\item 
+\hypertarget{structtag_line_info_a18bfba2af4affed653033fd6f3e6b834}{}unsigned short {\bfseries w\+Canvas\+Height}\label{structtag_line_info_a18bfba2af4affed653033fd6f3e6b834}
+
+\item 
+\hypertarget{structtag_line_info_a26506b07c24aaa354d48743a33442860}{}C\+Point\+List {\bfseries point\+List}\label{structtag_line_info_a26506b07c24aaa354d48743a33442860}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+business/businessdef.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,56 @@
+\hypertarget{class_c_i_o_s_push_lua_manager}{}\section{C\+I\+O\+S\+Push\+Lua\+Manager Class Reference}
+\label{class_c_i_o_s_push_lua_manager}\index{C\+I\+O\+S\+Push\+Lua\+Manager@{C\+I\+O\+S\+Push\+Lua\+Manager}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_i_o_s_push_lua_manager_aa65822c44980adf230333506025d7c4a}{}\hyperlink{class_i_ios_push_interface}{I\+Ios\+Push\+Interface} $\ast$ {\bfseries Get\+Ios\+Push\+Interface} ()\label{class_c_i_o_s_push_lua_manager_aa65822c44980adf230333506025d7c4a}
+
+\item 
+\hypertarget{class_c_i_o_s_push_lua_manager_ad0c9036a0117db7723375358fa882a62}{}bool {\bfseries Init} (I\+D\+B\+Task\+Request $\ast$p\+I\+D\+B\+Task\+Request, \hyperlink{class_i_query_data_cache_interface}{I\+Query\+Data\+Cache\+Interface} $\ast$p\+I\+Query\+Data\+Cache\+Interface)\label{class_c_i_o_s_push_lua_manager_ad0c9036a0117db7723375358fa882a62}
+
+\item 
+\hypertarget{class_c_i_o_s_push_lua_manager_ac57e42376876ea9f57c6ef198fe9a057}{}bool {\bfseries Load\+Script} (const std\+::string \&ios\+Push\+Script)\label{class_c_i_o_s_push_lua_manager_ac57e42376876ea9f57c6ef198fe9a057}
+
+\item 
+\hypertarget{class_c_i_o_s_push_lua_manager_a936c3ea6ebf32444dbb6bcfb883fdf8b}{}void {\bfseries Exec\+I\+O\+S\+Push\+Str} (const char $\ast$token, D\+W\+O\+R\+D dw\+Dst, C\+O\+M\+M\+A\+N\+D command, const char $\ast$p\+Data, W\+O\+R\+D w\+Data\+Size)\label{class_c_i_o_s_push_lua_manager_a936c3ea6ebf32444dbb6bcfb883fdf8b}
+
+\item 
+\hypertarget{class_c_i_o_s_push_lua_manager_ab821d5f3ebf5f56af63d872a7798f126}{}lua\+\_\+\+State $\ast$ {\bfseries Get\+Lua\+State} ()\label{class_c_i_o_s_push_lua_manager_ab821d5f3ebf5f56af63d872a7798f126}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_i_o_s_push_lua_manager_a99aacf89825f77791066b26f58b668c6}{}static \hyperlink{class_c_i_o_s_push_lua_manager}{C\+I\+O\+S\+Push\+Lua\+Manager} $\ast$ {\bfseries Get\+Instance} ()\label{class_c_i_o_s_push_lua_manager_a99aacf89825f77791066b26f58b668c6}
+
+\item 
+\hypertarget{class_c_i_o_s_push_lua_manager_a4e4511a71a5d1babe1d42231fc62ebc9}{}static void {\bfseries Del\+Instance} ()\label{class_c_i_o_s_push_lua_manager_a4e4511a71a5d1babe1d42231fc62ebc9}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_i_o_s_push_lua_manager_a2c5c3c6d9d9e9d649d4d369cd763d6d2}{}lua\+\_\+\+State $\ast$ {\bfseries m\+\_\+p\+Lua\+State}\label{class_c_i_o_s_push_lua_manager_a2c5c3c6d9d9e9d649d4d369cd763d6d2}
+
+\item 
+\hypertarget{class_c_i_o_s_push_lua_manager_aabbbbcf14b903ad4e0f35171af82280f}{}\hyperlink{struct_c_cmd_buffer_parse}{C\+Cmd\+Buffer\+Parse} $\ast$ {\bfseries m\+\_\+parser}\label{class_c_i_o_s_push_lua_manager_aabbbbcf14b903ad4e0f35171af82280f}
+
+\item 
+\hypertarget{class_c_i_o_s_push_lua_manager_ac5444e26811c74d8da60a601fd59032a}{}\hyperlink{class_i_query_data_cache_interface}{I\+Query\+Data\+Cache\+Interface} $\ast$ {\bfseries m\+\_\+p\+I\+Query\+Data\+Cache\+Interface}\label{class_c_i_o_s_push_lua_manager_ac5444e26811c74d8da60a601fd59032a}
+
+\item 
+\hypertarget{class_c_i_o_s_push_lua_manager_a86fdd01bf8b016cad111792519fd2146}{}bool {\bfseries m\+\_\+inited}\label{class_c_i_o_s_push_lua_manager_a86fdd01bf8b016cad111792519fd2146}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_i_o_s_push_lua_manager_a4e5b47beac5a9347faf5d7a974ed85bb}{}static \hyperlink{class_c_i_o_s_push_lua_manager}{C\+I\+O\+S\+Push\+Lua\+Manager} $\ast$ {\bfseries m\+\_\+instance} = N\+U\+L\+L\label{class_c_i_o_s_push_lua_manager_a4e5b47beac5a9347faf5d7a974ed85bb}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+I\+O\+S\+Push\+Lua\+Manager.\+h\item 
+I\+O\+S\+Push\+Lua\+Manager.\+cpp\end{DoxyCompactItemize}

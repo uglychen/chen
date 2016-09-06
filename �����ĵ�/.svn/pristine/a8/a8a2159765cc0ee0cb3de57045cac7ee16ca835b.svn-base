@@ -1,0 +1,19 @@
+\hypertarget{structtag_room_ban}{}\section{tag\+Room\+Ban Struct Reference}
+\label{structtag_room_ban}\index{tag\+Room\+Ban@{tag\+Room\+Ban}}
+Inheritance diagram for tag\+Room\+Ban\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{structtag_room_ban}
+\end{center}
+\end{figure}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structtag_room_ban_aa06208cd7780ca8d8f9671fae9b06cc4}{}D\+W\+O\+R\+D {\bfseries user\+I\+D}\label{structtag_room_ban_aa06208cd7780ca8d8f9671fae9b06cc4}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+business/businessdef.\+h\end{DoxyCompactItemize}

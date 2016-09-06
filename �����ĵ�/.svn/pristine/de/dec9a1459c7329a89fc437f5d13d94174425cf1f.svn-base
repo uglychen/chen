@@ -1,0 +1,29 @@
+\hypertarget{class_c_json_parse}{}\section{C\+Json\+Parse Class Reference}
+\label{class_c_json_parse}\index{C\+Json\+Parse@{C\+Json\+Parse}}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_json_parse_ad6165d0dd3f749586c7d0a17587b00b2}{}static bool {\bfseries Get\+Bool} (const char $\ast$psz\+Key, Json\+::\+Value json\+Value, bool \&b\+Flag)\label{class_c_json_parse_ad6165d0dd3f749586c7d0a17587b00b2}
+
+\item 
+\hypertarget{class_c_json_parse_a5229a0898961900f073a4624f0bb7998}{}static bool {\bfseries Get\+Short} (const char $\ast$psz\+Key, Json\+::\+Value json\+Value, short \&n\+Out\+Num)\label{class_c_json_parse_a5229a0898961900f073a4624f0bb7998}
+
+\item 
+\hypertarget{class_c_json_parse_af9088d9ad61c244885df1a5d2fadd3ec}{}static bool {\bfseries Get\+Int} (const char $\ast$psz\+Key, Json\+::\+Value json\+Value, int \&n\+Out\+Num)\label{class_c_json_parse_af9088d9ad61c244885df1a5d2fadd3ec}
+
+\item 
+\hypertarget{class_c_json_parse_ab4a22dda7bcf900092610b9985e393d7}{}static bool {\bfseries Get\+U\+Int} (const char $\ast$psz\+Key, Json\+::\+Value json\+Value, unsigned int \&n\+Out\+Num)\label{class_c_json_parse_ab4a22dda7bcf900092610b9985e393d7}
+
+\item 
+\hypertarget{class_c_json_parse_ac667942fa390d3570c1d93112286355a}{}static bool {\bfseries Get\+String} (const char $\ast$psz\+Key, Json\+::\+Value json\+Value, string \&str)\label{class_c_json_parse_ac667942fa390d3570c1d93112286355a}
+
+\item 
+\hypertarget{class_c_json_parse_ac7c7458a602a5fc369b4c00f00e9b9e4}{}static bool {\bfseries Get\+Json\+Value} (const char $\ast$psz\+Key, Json\+::\+Value json\+Value, Json\+::\+Value \&out\+Value)\label{class_c_json_parse_ac7c7458a602a5fc369b4c00f00e9b9e4}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+business/Json\+Parse.\+h\item 
+business/Json\+Parse.\+cpp\end{DoxyCompactItemize}

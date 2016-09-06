@@ -1,0 +1,19 @@
+\hypertarget{structtag_data}{}\section{tag\+Data Struct Reference}
+\label{structtag_data}\index{tag\+Data@{tag\+Data}}
+Inheritance diagram for tag\+Data\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.912281cm]{structtag_data}
+\end{center}
+\end{figure}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structtag_data_a4edfc30c691af8744ed1a2f254995d62}{}unsigned short {\bfseries size}\label{structtag_data_a4edfc30c691af8744ed1a2f254995d62}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Data\+Cache/cache.\+h\end{DoxyCompactItemize}

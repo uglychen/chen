@@ -1,0 +1,35 @@
+\hypertarget{class_c_trans_a_v_data_engine}{}\section{C\+Trans\+A\+V\+Data\+Engine Class Reference}
+\label{class_c_trans_a_v_data_engine}\index{C\+Trans\+A\+V\+Data\+Engine@{C\+Trans\+A\+V\+Data\+Engine}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_trans_a_v_data_engine_a1fbd6fbd0661f12929fa445afa8ba560}{}\hyperlink{structtag_a_v_data}{A\+V\+D\+A\+T\+A} $\ast$ {\bfseries Get\+Free\+Mem} ()\label{class_c_trans_a_v_data_engine_a1fbd6fbd0661f12929fa445afa8ba560}
+
+\item 
+\hypertarget{class_c_trans_a_v_data_engine_afb3a25fafbc08b7453d0261ceaa482da}{}void {\bfseries Free\+A\+V\+Data} (\hyperlink{structtag_a_v_data}{A\+V\+D\+A\+T\+A} $\ast$p\+A\+V\+Data)\label{class_c_trans_a_v_data_engine_afb3a25fafbc08b7453d0261ceaa482da}
+
+\item 
+\hypertarget{class_c_trans_a_v_data_engine_ae087e72f57bb5a45eec3b1711c2b6fde}{}bool {\bfseries Init\+Trans\+A\+V\+Data\+Engine} (I\+Udp\+Attemper\+Engine $\ast$p\+I\+Udp\+Attemper\+Engine, I\+Tcp\+I\+O\+Attemper\+Engine $\ast$p\+I\+Tcp\+Attemper\+Engine, \hyperlink{class_c_stream_manage}{C\+Stream\+Manage} $\ast$p\+Stream\+Manage, W\+O\+R\+D w\+Thread\+Num)\label{class_c_trans_a_v_data_engine_ae087e72f57bb5a45eec3b1711c2b6fde}
+
+\item 
+\hypertarget{class_c_trans_a_v_data_engine_acd8ca926748a7f637b16f059c2d9030c}{}bool {\bfseries Start\+Trans\+A\+V\+Data\+Engine} ()\label{class_c_trans_a_v_data_engine_acd8ca926748a7f637b16f059c2d9030c}
+
+\item 
+\hypertarget{class_c_trans_a_v_data_engine_a0b0c296a8d03100a8345fad2a569733f}{}bool {\bfseries Stop\+Trans\+A\+V\+Data\+Engine} ()\label{class_c_trans_a_v_data_engine_a0b0c296a8d03100a8345fad2a569733f}
+
+\item 
+\hypertarget{class_c_trans_a_v_data_engine_a5772ecc142c3b348e4ee7d897b09f054}{}void {\bfseries Put\+Data} (C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Buffer, W\+O\+R\+D w\+Data\+Size, E\+C\+T client\+Type)\label{class_c_trans_a_v_data_engine_a5772ecc142c3b348e4ee7d897b09f054}
+
+\item 
+\hypertarget{class_c_trans_a_v_data_engine_ac3358d914aea468dc0333845e447bb66}{}bool {\bfseries Exec\+Trans\+Task} ()\label{class_c_trans_a_v_data_engine_ac3358d914aea468dc0333845e447bb66}
+
+\item 
+\hypertarget{class_c_trans_a_v_data_engine_aa2166be9bb82225d247ca1154e1d47ae}{}bool {\bfseries Exec\+Task} (int n\+Index)\label{class_c_trans_a_v_data_engine_aa2166be9bb82225d247ca1154e1d47ae}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Trans\+A\+V\+Data\+Engine.\+h\item 
+Trans\+A\+V\+Data\+Engine.\+cpp\end{DoxyCompactItemize}

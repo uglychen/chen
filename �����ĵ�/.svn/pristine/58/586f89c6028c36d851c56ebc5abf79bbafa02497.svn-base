@@ -1,0 +1,64 @@
+\hypertarget{structtag_media_param}{}\section{tag\+Media\+Param Struct Reference}
+\label{structtag_media_param}\index{tag\+Media\+Param@{tag\+Media\+Param}}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structtag_media_param_a108633b5a3acd597c31c3aaeea60376b}{}char {\bfseries sz\+Local\+Data\+Center\+I\+D} \mbox{[}24\mbox{]}\label{structtag_media_param_a108633b5a3acd597c31c3aaeea60376b}
+
+\item 
+\hypertarget{structtag_media_param_a82e7569dc7264b064e9b64a236f6477a}{}char {\bfseries sz\+Listen\+Tcp\+Addr} \mbox{[}24\mbox{]}\label{structtag_media_param_a82e7569dc7264b064e9b64a236f6477a}
+
+\item 
+\hypertarget{structtag_media_param_ad3cbff1b262726bf2c8ae1dd668f0133}{}char {\bfseries sz\+Listen\+Udp\+Addr} \mbox{[}24\mbox{]}\label{structtag_media_param_ad3cbff1b262726bf2c8ae1dd668f0133}
+
+\item 
+\hypertarget{structtag_media_param_aa0da303ba871c3f2385dfdb74e6f2ba0}{}unsigned short {\bfseries w\+Listen\+Port}\label{structtag_media_param_aa0da303ba871c3f2385dfdb74e6f2ba0}
+
+\item 
+\hypertarget{structtag_media_param_a4a08e4f74ec09a8d362989fec49f0650}{}char {\bfseries sz\+Service\+Addr} \mbox{[}24\mbox{]}\label{structtag_media_param_a4a08e4f74ec09a8d362989fec49f0650}
+
+\item 
+\hypertarget{structtag_media_param_a9448efa5a883423d097655917ab7c659}{}unsigned short {\bfseries w\+Service\+Port}\label{structtag_media_param_a9448efa5a883423d097655917ab7c659}
+
+\item 
+\hypertarget{structtag_media_param_aec0bd99f10e5f4a0e57d9b22727568c9}{}char {\bfseries sz\+Local\+Data\+Source\+Addr} \mbox{[}24\mbox{]}\label{structtag_media_param_aec0bd99f10e5f4a0e57d9b22727568c9}
+
+\item 
+\hypertarget{structtag_media_param_a9dcc6155295439f4ebe6195b235a244b}{}unsigned short {\bfseries w\+Local\+Data\+Source\+Port}\label{structtag_media_param_a9dcc6155295439f4ebe6195b235a244b}
+
+\item 
+\hypertarget{structtag_media_param_aca321a668586000c455d218c9bcf647c}{}unsigned short {\bfseries n\+Is\+Upload\+Data\+To\+Gateway}\label{structtag_media_param_aca321a668586000c455d218c9bcf647c}
+
+\item 
+\hypertarget{structtag_media_param_a1a49112e1068c337f942a4afefd65296}{}unsigned short {\bfseries w\+Gateway\+Num}\label{structtag_media_param_a1a49112e1068c337f942a4afefd65296}
+
+\item 
+\hypertarget{structtag_media_param_a5c07c828266ccac02fbe8f8ded564eee}{}char {\bfseries sz\+Gateway\+Addr} \mbox{[}G\+A\+T\+E\+W\+A\+Y\+\_\+\+M\+A\+X\+\_\+\+N\+U\+M\mbox{]}\mbox{[}24\mbox{]}\label{structtag_media_param_a5c07c828266ccac02fbe8f8ded564eee}
+
+\item 
+\hypertarget{structtag_media_param_aa51281cb315a76b4a819161b418209c7}{}unsigned short {\bfseries w\+Gateway\+Port} \mbox{[}G\+A\+T\+E\+W\+A\+Y\+\_\+\+M\+A\+X\+\_\+\+N\+U\+M\mbox{]}\label{structtag_media_param_aa51281cb315a76b4a819161b418209c7}
+
+\item 
+\hypertarget{structtag_media_param_a8824503f40fcc167a05bc50a700b9cb9}{}char {\bfseries sz\+Redis\+Addr} \mbox{[}24\mbox{]}\label{structtag_media_param_a8824503f40fcc167a05bc50a700b9cb9}
+
+\item 
+\hypertarget{structtag_media_param_af2088c1a77d26ad4850e0ff9cab27bc5}{}unsigned short {\bfseries w\+Redis\+Port}\label{structtag_media_param_af2088c1a77d26ad4850e0ff9cab27bc5}
+
+\item 
+\hypertarget{structtag_media_param_a67a38373086c4a7864fd31db77839f8c}{}unsigned int {\bfseries n\+Sever\+Max\+Num\+Of\+People}\label{structtag_media_param_a67a38373086c4a7864fd31db77839f8c}
+
+\item 
+\hypertarget{structtag_media_param_afd21d02435740c026806891e46c79ed3}{}unsigned short {\bfseries n\+Server\+Max\+Support\+Room\+Num}\label{structtag_media_param_afd21d02435740c026806891e46c79ed3}
+
+\item 
+\hypertarget{structtag_media_param_a2f8e72db185845d004941dcf4561a5d3}{}unsigned short {\bfseries n\+Every\+Room\+Support\+Num\+Of\+People}\label{structtag_media_param_a2f8e72db185845d004941dcf4561a5d3}
+
+\item 
+\hypertarget{structtag_media_param_ae1ca31e6c357ee0e18a9ea4940a0c94e}{}char {\bfseries sz\+Log\+Path} \mbox{[}M\+A\+X\+\_\+\+P\+A\+T\+H\mbox{]}\label{structtag_media_param_ae1ca31e6c357ee0e18a9ea4940a0c94e}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+mediasvr.\+h\end{DoxyCompactItemize}

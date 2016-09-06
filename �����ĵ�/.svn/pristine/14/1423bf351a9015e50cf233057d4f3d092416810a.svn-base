@@ -1,0 +1,22 @@
+\hypertarget{uniontag_room_user_num}{}\section{tag\+Room\+User\+Num Union Reference}
+\label{uniontag_room_user_num}\index{tag\+Room\+User\+Num@{tag\+Room\+User\+Num}}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{uniontag_room_user_num_a7bd0f7fdd3dce586b228f4c0f1dc73c2}{}long long {\bfseries udw\+Num}\label{uniontag_room_user_num_a7bd0f7fdd3dce586b228f4c0f1dc73c2}
+
+\item 
+\hypertarget{uniontag_room_user_num_aa3d237e3922fd329bfc94375d4f80e04}{}\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>int {\bfseries nAudioNum}\\
+\>int {\bfseries nVideoNum}\\
+\}; \label{uniontag_room_user_num_aa3d237e3922fd329bfc94375d4f80e04}
+\\
+
+\end{tabbing}\end{DoxyCompactItemize}
+
+
+The documentation for this union was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+mediasvr.\+h\end{DoxyCompactItemize}

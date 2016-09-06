@@ -1,0 +1,59 @@
+\hypertarget{class_c_mysql_lua_manager}{}\section{C\+Mysql\+Lua\+Manager Class Reference}
+\label{class_c_mysql_lua_manager}\index{C\+Mysql\+Lua\+Manager@{C\+Mysql\+Lua\+Manager}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_mysql_lua_manager_a6ca81e24c33e552947230bf8892aa49e}{}\hyperlink{class_i_ios_push_interface}{I\+Ios\+Push\+Interface} $\ast$ {\bfseries Get\+Ios\+Push\+Interface} ()\label{class_c_mysql_lua_manager_a6ca81e24c33e552947230bf8892aa49e}
+
+\item 
+\hypertarget{class_c_mysql_lua_manager_ab52528a30f55c260f4f6373a04b6142b}{}bool {\bfseries Init} (I\+D\+B\+Task\+Request $\ast$p\+I\+D\+B\+Task\+Request, \hyperlink{class_i_query_data_cache_interface}{I\+Query\+Data\+Cache\+Interface} $\ast$p\+I\+Query\+Data\+Cache\+Interface)\label{class_c_mysql_lua_manager_ab52528a30f55c260f4f6373a04b6142b}
+
+\item 
+\hypertarget{class_c_mysql_lua_manager_a2113a39914def7e0dc77fb374abc5473}{}bool {\bfseries Load\+Script} (const std\+::string \&mysql\+Script)\label{class_c_mysql_lua_manager_a2113a39914def7e0dc77fb374abc5473}
+
+\item 
+\hypertarget{class_c_mysql_lua_manager_a7699c7f2074840f8ff38bdb01827d3e6}{}void {\bfseries Exec\+Mysql\+Str} (C\+O\+M\+M\+A\+N\+D command, const char $\ast$p\+Data, W\+O\+R\+D w\+Data\+Size)\label{class_c_mysql_lua_manager_a7699c7f2074840f8ff38bdb01827d3e6}
+
+\item 
+\hypertarget{class_c_mysql_lua_manager_ab4cd2ff7ab104a41167b293e87d22803}{}lua\+\_\+\+State $\ast$ {\bfseries Get\+Lua\+State} ()\label{class_c_mysql_lua_manager_ab4cd2ff7ab104a41167b293e87d22803}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_mysql_lua_manager_a1ae516d7aaf320a679fec3b72c030150}{}static \hyperlink{class_c_mysql_lua_manager}{C\+Mysql\+Lua\+Manager} $\ast$ {\bfseries Get\+Instance} ()\label{class_c_mysql_lua_manager_a1ae516d7aaf320a679fec3b72c030150}
+
+\item 
+\hypertarget{class_c_mysql_lua_manager_acd3cc41dcf7e54351935eecf65b4425f}{}static void {\bfseries Del\+Instance} ()\label{class_c_mysql_lua_manager_acd3cc41dcf7e54351935eecf65b4425f}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_mysql_lua_manager_a6b79b97c6e9e0a646977c571764c3109}{}lua\+\_\+\+State $\ast$ {\bfseries m\+\_\+p\+Lua\+State}\label{class_c_mysql_lua_manager_a6b79b97c6e9e0a646977c571764c3109}
+
+\item 
+\hypertarget{class_c_mysql_lua_manager_ae4bedda1b1f22c696161a302d45ff3c5}{}\hyperlink{struct_c_cmd_buffer_parse}{C\+Cmd\+Buffer\+Parse} $\ast$ {\bfseries m\+\_\+parser}\label{class_c_mysql_lua_manager_ae4bedda1b1f22c696161a302d45ff3c5}
+
+\item 
+\hypertarget{class_c_mysql_lua_manager_ae75d51b9920db231eeb8faf67367aba1}{}\hyperlink{class_i_query_data_cache_interface}{I\+Query\+Data\+Cache\+Interface} $\ast$ {\bfseries m\+\_\+p\+I\+Query\+Data\+Cache\+Interface}\label{class_c_mysql_lua_manager_ae75d51b9920db231eeb8faf67367aba1}
+
+\item 
+\hypertarget{class_c_mysql_lua_manager_a7f7a0e038e42221328e028f26707e458}{}bool {\bfseries m\+\_\+inited}\label{class_c_mysql_lua_manager_a7f7a0e038e42221328e028f26707e458}
+
+\item 
+\hypertarget{class_c_mysql_lua_manager_ae42ef0523fcc24b50430791f0e47fe70}{}C\+Thread\+Lock {\bfseries m\+\_\+inited\+Lock}\label{class_c_mysql_lua_manager_ae42ef0523fcc24b50430791f0e47fe70}
+
+\end{DoxyCompactItemize}
+\subsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_mysql_lua_manager_afc093ba77b0a0009c444ba69f163faf3}{}static \hyperlink{class_c_mysql_lua_manager}{C\+Mysql\+Lua\+Manager} $\ast$ {\bfseries m\+\_\+instance} = N\+U\+L\+L\label{class_c_mysql_lua_manager_afc093ba77b0a0009c444ba69f163faf3}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Mysql\+Lua\+Manager.\+h\item 
+Mysql\+Lua\+Manager.\+cpp\end{DoxyCompactItemize}

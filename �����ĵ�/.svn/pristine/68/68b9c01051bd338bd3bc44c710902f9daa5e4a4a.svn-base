@@ -1,0 +1,28 @@
+\hypertarget{class_i_business_m}{}\section{I\+Business\+M Class Reference}
+\label{class_i_business_m}\index{I\+Business\+M@{I\+Business\+M}}
+Inheritance diagram for I\+Business\+M\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=11.000000cm]{class_i_business_m}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_i_business_m_aa08cdcabdcc05c1eda7752e408bcbe63}{}virtual int {\bfseries Init\+Business} (unsigned long long local\+Svr\+I\+D, unsigned int un\+Version, I\+Unknown\+Ex $\ast$p\+I\+Unknow\+Ex, \hyperlink{class_i_bussiness_module_m_interface}{I\+Bussiness\+Module\+M\+Interface} $\ast$p\+I\+Bussiness\+Module)=0\label{class_i_business_m_aa08cdcabdcc05c1eda7752e408bcbe63}
+
+\item 
+\hypertarget{class_i_business_m_a270edadc116b9f98b174174d5712240f}{}virtual bool {\bfseries Start\+Business} ()=0\label{class_i_business_m_a270edadc116b9f98b174174d5712240f}
+
+\item 
+\hypertarget{class_i_business_m_a4d1547ec0e7caa8cc9d18c4342ee74db}{}virtual bool {\bfseries Stop\+Business} ()=0\label{class_i_business_m_a4d1547ec0e7caa8cc9d18c4342ee74db}
+
+\item 
+\hypertarget{class_i_business_m_a604e1860bef5a803b09ac8f008b9ee06}{}virtual bool {\bfseries Register\+Cmd} ()=0\label{class_i_business_m_a604e1860bef5a803b09ac8f008b9ee06}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+business/trans.\+h\end{DoxyCompactItemize}

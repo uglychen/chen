@@ -1,0 +1,40 @@
+\hypertarget{structtag_business_info}{}\section{tag\+Business\+Info Struct Reference}
+\label{structtag_business_info}\index{tag\+Business\+Info@{tag\+Business\+Info}}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structtag_business_info_ac2991af87ab431c0e4c4ce28ca6f13f1}{}short {\bfseries n\+Module\+I\+D}\label{structtag_business_info_ac2991af87ab431c0e4c4ce28ca6f13f1}
+
+\item 
+\hypertarget{structtag_business_info_a8b08eaedad57c90ea8d56db30d54b814}{}char {\bfseries sz\+Module\+Name} \mbox{[}32\mbox{]}\label{structtag_business_info_a8b08eaedad57c90ea8d56db30d54b814}
+
+\item 
+\hypertarget{structtag_business_info_a9867f83ac113110336f7364864c09941}{}char {\bfseries sz\+Module\+Ulr} \mbox{[}M\+A\+X\+\_\+\+P\+A\+T\+H\mbox{]}\label{structtag_business_info_a9867f83ac113110336f7364864c09941}
+
+\item 
+\hypertarget{structtag_business_info_a28c295a83db28fad5086d413cae69d04}{}char {\bfseries sz\+Business\+Desc} \mbox{[}128\mbox{]}\label{structtag_business_info_a28c295a83db28fad5086d413cae69d04}
+
+\item 
+\hypertarget{structtag_business_info_ab9fe917371597e665692d1cfe49b8b18}{}unsigned int {\bfseries un\+Version}\label{structtag_business_info_ab9fe917371597e665692d1cfe49b8b18}
+
+\item 
+\hypertarget{structtag_business_info_abf65e83cceb1f9cf7b97ac817c52bbf7}{}unsigned char {\bfseries n\+Cmd\+Array} \mbox{[}65536\mbox{]}\label{structtag_business_info_abf65e83cceb1f9cf7b97ac817c52bbf7}
+
+\item 
+\hypertarget{structtag_business_info_a0b8fdccea63a908cf44dcff8b070f76e}{}H\+I\+N\+S\+T\+A\+N\+C\+E {\bfseries h\+Dll\+Instance}\label{structtag_business_info_a0b8fdccea63a908cf44dcff8b070f76e}
+
+\item 
+\hypertarget{structtag_business_info_a729edb698390440defd068b154b74505}{}\hyperlink{class_i_business_m}{I\+Business\+M} $\ast$ {\bfseries p\+I\+Business\+M}\label{structtag_business_info_a729edb698390440defd068b154b74505}
+
+\item 
+\hypertarget{structtag_business_info_a7bebe3aba8dea88e460090eb5039d0b7}{}\hyperlink{class_i_business}{I\+Business} $\ast$ {\bfseries p\+I\+Business}\label{structtag_business_info_a7bebe3aba8dea88e460090eb5039d0b7}
+
+\item 
+\hypertarget{structtag_business_info_ae011559cab418a7459d03bc6cad2682e}{}bool {\bfseries is\+Ready}\label{structtag_business_info_ae011559cab418a7459d03bc6cad2682e}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Business\+Module\+M.\+h\end{DoxyCompactItemize}

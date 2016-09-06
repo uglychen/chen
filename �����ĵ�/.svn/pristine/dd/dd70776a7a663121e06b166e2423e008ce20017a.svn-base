@@ -1,0 +1,40 @@
+\hypertarget{structtag_mt_cache}{}\section{tag\+Mt\+Cache Struct Reference}
+\label{structtag_mt_cache}\index{tag\+Mt\+Cache@{tag\+Mt\+Cache}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structtag_mt_cache_af2831a90673d2393ba35faef0b3bce9f}{}void {\bfseries Release} ()\label{structtag_mt_cache_af2831a90673d2393ba35faef0b3bce9f}
+
+\item 
+\hypertarget{structtag_mt_cache_a187a415c736e390cbebe1c3309a661ab}{}void {\bfseries Set\+Data} (char $\ast$p\+Token, D\+W\+O\+R\+D dst, C\+O\+M\+M\+A\+N\+D cmd, char $\ast$p\+Data, W\+O\+R\+D w\+Size)\label{structtag_mt_cache_a187a415c736e390cbebe1c3309a661ab}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structtag_mt_cache_a9e2470a3fb988edd240f5cef953d6291}{}W\+O\+R\+D {\bfseries w\+Data\+Size}\label{structtag_mt_cache_a9e2470a3fb988edd240f5cef953d6291}
+
+\item 
+\hypertarget{structtag_mt_cache_ae72777e1096a476b06cd5a42b137ea3e}{}W\+O\+R\+D {\bfseries w\+Buffer\+Size}\label{structtag_mt_cache_ae72777e1096a476b06cd5a42b137ea3e}
+
+\item 
+\hypertarget{structtag_mt_cache_ae53d6199ddf7686480bf5ef018353367}{}D\+W\+O\+R\+D {\bfseries dw\+Timestamp}\label{structtag_mt_cache_ae53d6199ddf7686480bf5ef018353367}
+
+\item 
+\hypertarget{structtag_mt_cache_ad4db9e46825f2299ab63caa8e99984fa}{}D\+W\+O\+R\+D {\bfseries dw\+Dst\+User}\label{structtag_mt_cache_ad4db9e46825f2299ab63caa8e99984fa}
+
+\item 
+\hypertarget{structtag_mt_cache_acba294e7ca0d09be62132a907fbba545}{}C\+O\+M\+M\+A\+N\+D {\bfseries command}\label{structtag_mt_cache_acba294e7ca0d09be62132a907fbba545}
+
+\item 
+\hypertarget{structtag_mt_cache_a2503eeeebfbdea39aaccc441ece1ea10}{}char {\bfseries sz\+Token} \mbox{[}128\mbox{]}\label{structtag_mt_cache_a2503eeeebfbdea39aaccc441ece1ea10}
+
+\item 
+\hypertarget{structtag_mt_cache_a6b6fa680debe94155fed6cecf7d83f49}{}char $\ast$ {\bfseries p\+Buffer}\label{structtag_mt_cache_a6b6fa680debe94155fed6cecf7d83f49}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Mt\+Data\+Cache.\+h\end{DoxyCompactItemize}

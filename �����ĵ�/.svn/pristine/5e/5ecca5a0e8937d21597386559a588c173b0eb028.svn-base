@@ -1,0 +1,83 @@
+\hypertarget{class_c_stream_manage}{}\section{C\+Stream\+Manage Class Reference}
+\label{class_c_stream_manage}\index{C\+Stream\+Manage@{C\+Stream\+Manage}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_stream_manage_a43c88b64a88f2df8115ca0f55d644c65}{}bool {\bfseries Get\+User\+Num\+List} (C\+Room\+User\+Num\+Map $\ast$p\+Num\+Map)\label{class_c_stream_manage_a43c88b64a88f2df8115ca0f55d644c65}
+
+\item 
+\hypertarget{class_c_stream_manage_ab50b65b510242e67f62bdfe41a2d2abb}{}bool {\bfseries Publish\+Stream} (E\+M\+O\+T av\+Type, W\+O\+R\+D w\+User\+Type, D\+W\+O\+R\+D dw\+Index\+I\+D, D\+W\+O\+R\+D dw\+Round\+I\+D, U\+N\+D\+W\+O\+R\+D udw\+Stream\+I\+D)\label{class_c_stream_manage_ab50b65b510242e67f62bdfe41a2d2abb}
+
+\item 
+\hypertarget{class_c_stream_manage_ae331de0b2473eacdbf4e9663b79118dc}{}void {\bfseries Remove\+Stream} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id)\label{class_c_stream_manage_ae331de0b2473eacdbf4e9663b79118dc}
+
+\item 
+\hypertarget{class_c_stream_manage_a82e8023761f42ec51ab9533bca5a2a85}{}D\+W\+O\+R\+D {\bfseries Get\+Publish\+Index\+I\+D} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id)\label{class_c_stream_manage_a82e8023761f42ec51ab9533bca5a2a85}
+
+\item 
+\hypertarget{class_c_stream_manage_a7c1ba5e1d63fefac4cecce5dfadccd98}{}D\+W\+O\+R\+D {\bfseries Get\+Publish\+Round\+I\+D} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id)\label{class_c_stream_manage_a7c1ba5e1d63fefac4cecce5dfadccd98}
+
+\item 
+\hypertarget{class_c_stream_manage_aa8180d6bcf798479a0df934bdfde7c03}{}bool {\bfseries Is\+Publish} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id)\label{class_c_stream_manage_aa8180d6bcf798479a0df934bdfde7c03}
+
+\item 
+\hypertarget{class_c_stream_manage_a3fc4801c03a12a0b4c1ecb0d772e88bb}{}void {\bfseries Set\+Stop\+Publish} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id)\label{class_c_stream_manage_a3fc4801c03a12a0b4c1ecb0d772e88bb}
+
+\item 
+\hypertarget{class_c_stream_manage_a2a97ac603584605ab4752a4313ded6c1}{}void {\bfseries Set\+Pause\+Publish} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id)\label{class_c_stream_manage_a2a97ac603584605ab4752a4313ded6c1}
+
+\item 
+\hypertarget{class_c_stream_manage_a6cc540d65a1c6284afec2227277b6e36}{}void {\bfseries Set\+Resume\+Publish} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id)\label{class_c_stream_manage_a6cc540d65a1c6284afec2227277b6e36}
+
+\item 
+\hypertarget{class_c_stream_manage_aaa348f92e276e6de3f70793bb27b7ea2}{}void {\bfseries Set\+Audio\+Mute\+State} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id, bool mute)\label{class_c_stream_manage_aaa348f92e276e6de3f70793bb27b7ea2}
+
+\item 
+\hypertarget{class_c_stream_manage_ace18e9b828c503f3a423b2e124898fc8}{}bool {\bfseries Get\+Audio\+Mute\+State} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id, bool \&mute)\label{class_c_stream_manage_ace18e9b828c503f3a423b2e124898fc8}
+
+\item 
+\hypertarget{class_c_stream_manage_a0e9ed5460ece6f170074a25fa306c008}{}bool {\bfseries Set\+Header\+Data} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id, char $\ast$p\+Data, W\+O\+R\+D w\+Data\+Size)\label{class_c_stream_manage_a0e9ed5460ece6f170074a25fa306c008}
+
+\item 
+\hypertarget{class_c_stream_manage_ae64209645032a50bb2ae85b86e9d51b9}{}bool {\bfseries Get\+Header\+Data} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id, char $\ast$p\+Data, W\+O\+R\+D \&w\+Data\+Size)\label{class_c_stream_manage_ae64209645032a50bb2ae85b86e9d51b9}
+
+\item 
+\hypertarget{class_c_stream_manage_a3c330ebd154e89d7b4c8ee5eff67521a}{}D\+W\+O\+R\+D {\bfseries Get\+Current\+Time\+Interval} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id)\label{class_c_stream_manage_a3c330ebd154e89d7b4c8ee5eff67521a}
+
+\item 
+\hypertarget{class_c_stream_manage_a7e4c233d1859ca307becc79f9f331fdd}{}int {\bfseries Add\+Play\+User} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id, D\+W\+O\+R\+D dw\+Index\+I\+D, D\+W\+O\+R\+D dw\+Round\+I\+D)\label{class_c_stream_manage_a7e4c233d1859ca307becc79f9f331fdd}
+
+\item 
+\hypertarget{class_c_stream_manage_a9cb21cde1f8eeb717b7c514302631ea6}{}int {\bfseries Remove\+User} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id, D\+W\+O\+R\+D dw\+Index\+I\+D)\label{class_c_stream_manage_a9cb21cde1f8eeb717b7c514302631ea6}
+
+\item 
+\hypertarget{class_c_stream_manage_a432db1e4c4c0dc348e9c329532f851cd}{}void {\bfseries Get\+Play\+User\+List} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id, int index, C\+Play\+User\+Map $\ast$p\+User\+Map)\label{class_c_stream_manage_a432db1e4c4c0dc348e9c329532f851cd}
+
+\item 
+\hypertarget{class_c_stream_manage_ae6d9cb700ca9f261386968b39d133f22}{}int {\bfseries Get\+Stream\+User\+Count} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id)\label{class_c_stream_manage_ae6d9cb700ca9f261386968b39d133f22}
+
+\item 
+\hypertarget{class_c_stream_manage_a3f87eb1789e95762505c6e8e411c3000}{}void {\bfseries Set\+Data\+Time} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id)\label{class_c_stream_manage_a3f87eb1789e95762505c6e8e411c3000}
+
+\item 
+\hypertarget{class_c_stream_manage_a2b283e118c30d90bf62b061afd8dd93a}{}void {\bfseries Add\+Publis\+Client} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id, D\+W\+O\+R\+D dw\+Index\+I\+D, D\+W\+O\+R\+D dw\+Round\+I\+D)\label{class_c_stream_manage_a2b283e118c30d90bf62b061afd8dd93a}
+
+\item 
+\hypertarget{class_c_stream_manage_a4471c227415241bdcc1262763f82727f}{}void {\bfseries Remove\+Publish\+Client} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id, D\+W\+O\+R\+D dw\+Index\+I\+D)\label{class_c_stream_manage_a4471c227415241bdcc1262763f82727f}
+
+\item 
+\hypertarget{class_c_stream_manage_a672f6196e403b300b7c3f174c320bfb2}{}bool {\bfseries Get\+Publish\+Client\+List} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id, C\+Play\+User\+Map $\ast$p\+Map)\label{class_c_stream_manage_a672f6196e403b300b7c3f174c320bfb2}
+
+\item 
+\hypertarget{class_c_stream_manage_a635f124f7fc05ed66d960ba555d3557f}{}int {\bfseries Get\+Publish\+Client\+Count} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id)\label{class_c_stream_manage_a635f124f7fc05ed66d960ba555d3557f}
+
+\item 
+\hypertarget{class_c_stream_manage_a3b32a74b5100f0bc3536c888e26c09ed}{}void {\bfseries Clear\+Publish\+Client} (E\+M\+O\+T av\+Type, U\+N\+D\+W\+O\+R\+D udw\+Stream\+Id)\label{class_c_stream_manage_a3b32a74b5100f0bc3536c888e26c09ed}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Stream\+Info.\+h\item 
+Stream\+Info.\+cpp\end{DoxyCompactItemize}

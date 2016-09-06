@@ -1,0 +1,54 @@
+\hypertarget{class_c_obj_data_cache}{}\section{C\+Obj\+Data\+Cache Class Reference}
+\label{class_c_obj_data_cache}\index{C\+Obj\+Data\+Cache@{C\+Obj\+Data\+Cache}}
+Inheritance diagram for C\+Obj\+Data\+Cache\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_c_obj_data_cache}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_obj_data_cache_a6d85446f8832bb836994e898ad1ce71d}{}virtual bool {\bfseries Is\+Valid} ()\label{class_c_obj_data_cache_a6d85446f8832bb836994e898ad1ce71d}
+
+\item 
+\hypertarget{class_c_obj_data_cache_a9d6c81a966bc75ad4640efbe4e435cc8}{}virtual bool {\bfseries Release} ()\label{class_c_obj_data_cache_a9d6c81a966bc75ad4640efbe4e435cc8}
+
+\item 
+\hypertarget{class_c_obj_data_cache_a3535dad6266d203d9fc3d1253474eb33}{}virtual void $\ast$ {\bfseries Query\+Interface} (unsigned int dw\+Query\+Ver)\label{class_c_obj_data_cache_a3535dad6266d203d9fc3d1253474eb33}
+
+\item 
+\hypertarget{class_c_obj_data_cache_ab2472d89e355d79478243c0625c54cbf}{}virtual void {\bfseries Add\+Data} (\hyperlink{structtag_basic_data}{P\+B\+A\+S\+I\+C\+D\+A\+T\+A} p\+Obj)\label{class_c_obj_data_cache_ab2472d89e355d79478243c0625c54cbf}
+
+\item 
+\hypertarget{class_c_obj_data_cache_a9f7168d79f0c90a99736b0924a606e7d}{}virtual void {\bfseries Remove} (unsigned int id)\label{class_c_obj_data_cache_a9f7168d79f0c90a99736b0924a606e7d}
+
+\item 
+\hypertarget{class_c_obj_data_cache_aa8a118b1f22365c874a0b175c6b6db6c}{}virtual bool {\bfseries Query\+Data\+By\+I\+D} (unsigned int id, \hyperlink{structtag_basic_data}{P\+B\+A\+S\+I\+C\+D\+A\+T\+A} p\+Data)\label{class_c_obj_data_cache_aa8a118b1f22365c874a0b175c6b6db6c}
+
+\item 
+\hypertarget{class_c_obj_data_cache_a3803ba182fc91d4abace5b7bee85a8a7}{}virtual int {\bfseries Query\+All\+Data} (C\+User\+Data\+Cache\+Map \&basic\+Data\+Map)\label{class_c_obj_data_cache_a3803ba182fc91d4abace5b7bee85a8a7}
+
+\item 
+\hypertarget{class_c_obj_data_cache_ab83e728dfadaa64b9163246c2efd79f6}{}virtual void {\bfseries Clear\+Data} ()\label{class_c_obj_data_cache_ab83e728dfadaa64b9163246c2efd79f6}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_obj_data_cache_aeed5ee54ccaf8463422a6db9613f4b0f}{}\hyperlink{structtag_basic_data}{P\+B\+A\+S\+I\+C\+D\+A\+T\+A} {\bfseries Query\+Data} (unsigned int id)\label{class_c_obj_data_cache_aeed5ee54ccaf8463422a6db9613f4b0f}
+
+\item 
+\hypertarget{class_c_obj_data_cache_a0a358db0d04e3e4d3ced66df105d03bf}{}\hyperlink{structtag_basic_data}{B\+A\+S\+I\+C\+D\+A\+T\+A} $\ast$ {\bfseries New\+Alloc} (unsigned short size)\label{class_c_obj_data_cache_a0a358db0d04e3e4d3ced66df105d03bf}
+
+\item 
+\hypertarget{class_c_obj_data_cache_a7b6d639227e405c72ec8fbefc64fb156}{}void {\bfseries Free\+Alloc} (\hyperlink{structtag_basic_data}{B\+A\+S\+I\+C\+D\+A\+T\+A} $\ast$p\+Obj)\label{class_c_obj_data_cache_a7b6d639227e405c72ec8fbefc64fb156}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Data\+Cache/Basic\+Data\+Cache.\+h\item 
+Data\+Cache/Basic\+Data\+Cache.\+cpp\end{DoxyCompactItemize}

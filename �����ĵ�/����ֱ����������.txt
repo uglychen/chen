@@ -1,0 +1,420 @@
+在线直播环境配置
+
+一，ffmpeg的安装
+-------------------------
+1. 安装编译环境 
+yum install -y automake autoconf libtool gcc gcc-c++  
+
+2. 安装依赖包
+yum -y install gcc glibc glibc-devel make nasm pkgconfig lib-devel openssl-devel expat-devel gettext-devel libtool mhash.x86_64 perl-Digest-SHA1.x86_64   gcc-c++ 
+
+3. 安装Git(非必须)
+yum -y install git
+
+4. 安装所需程序库的RPM包到 centos
+rpm -Uhv http://apt.sw.be/redhat/el6/en/x86_64/rpmforge/RPMS/rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm
+
+5.安装 Install ffmpeg 等模块 
+yum -y install ffmpeg ffmpeg-devel 
+
+
+二，Nginx + Nginx-rtmp-module的安装配置
+-------------------------
+1. 安装需要的模块(解决 error: the HTTP rewrite module requires the PCRE library 问题)
+yum -y install pcre-devel openssl openssl-devel
+
+2. 安装nginx yum repository
+rpm -ivh http://nginx.org/packages/centos/6/noarch/RPMS/nginx-release-centos-6-0.el6.ngx.noarch.rpm
+(可跳过)
+
+3. yum -y install nginx
+(可跳过)
+
+4. 依赖包
+yum -y install perl-devel perl-ExtUtils-Embed
+yum -y install libxml2 libxml2-devel libxslt libxslt-devel 
+
+5. wget https://github.com/arut/nginx-rtmp-module/archive/v1.1.6.tar.gz
+
+6. wget http://nginx.org/download/nginx-1.6.2.tar.gz
+
+7. 解压
+tar -zxvf v1.1.6.tar.gz
+tar -zxvf nginx-1.6.2.tar.gz
+
+8. 编译
+cd nginx-1.6.2
+./configure --add-module=/root/nginx-rtmp-module-1.1.6 --with-http_ssl_module --with-http_xslt_module
+make
+make install
+
+9.替换原有的nginx
+cp /usr/sbin/nginx /usr/sbin/nginx.20150104
+cp nginx /usr/sbin/nginx
+
+10. 创建 /etc/init.d/nginx 文件
+#!/bin/sh
+#
+# nginx        Startup script for nginx
+#
+# chkconfig: - 85 15
+# processname: nginx
+# config: /usr/local/nginx/conf/nginx.conf
+# config: /etc/sysconfig/nginx
+# pidfile: /var/run/nginx.pid
+# description: nginx is an HTTP and reverse proxy server
+#
+### BEGIN INIT INFO
+# Provides: nginx
+# Required-Start: $local_fs $remote_fs $network
+# Required-Stop: $local_fs $remote_fs $network
+# Default-Start: 2 3 4 5
+# Default-Stop: 0 1 6
+# Short-Description: start and stop nginx
+### END INIT INFO
+
+# Source function library.
+. /etc/rc.d/init.d/functions
+
+if [ -L $0 ]; then
+    initscript=`/bin/readlink -f $0`
+else
+    initscript=$0
+fi
+
+sysconfig=`/bin/basename $initscript`
+
+if [ -f /etc/sysconfig/$sysconfig ]; then
+    . /etc/sysconfig/$sysconfig
+fi
+
+nginx=${NGINX-/usr/local/nginx/sbin/nginx}
+prog=`/bin/basename $nginx`
+conffile=${CONFFILE-/usr/local/nginx/conf/nginx.conf}
+lockfile=${LOCKFILE-/var/lock/subsys/nginx}
+pidfile=${PIDFILE-/var/run/nginx.pid}
+SLEEPMSEC=${SLEEPMSEC-200000}
+UPGRADEWAITLOOPS=${UPGRADEWAITLOOPS-5}
+RETVAL=0
+
+start() {
+    echo -n $"Starting $prog: "
+
+    daemon --pidfile=${pidfile} ${nginx} -c ${conffile}
+    RETVAL=$?
+    echo
+    [ $RETVAL = 0 ] && touch ${lockfile}
+    return $RETVAL
+}
+
+stop() {
+    echo -n $"Stopping $prog: "
+    killproc -p ${pidfile} ${prog}
+    RETVAL=$?
+    echo
+    [ $RETVAL = 0 ] && rm -f ${lockfile} ${pidfile}
+}
+
+reload() {
+    echo -n $"Reloading $prog: "
+    killproc -p ${pidfile} ${prog} -HUP
+    RETVAL=$?
+    echo
+}
+
+upgrade() {
+    oldbinpidfile=${pidfile}.oldbin
+
+    configtest -q || return
+    echo -n $"Starting new master $prog: "
+    killproc -p ${pidfile} ${prog} -USR2
+    echo
+
+    for i in `/usr/bin/seq $UPGRADEWAITLOOPS`; do
+        /bin/usleep $SLEEPMSEC
+        if [ -f ${oldbinpidfile} -a -f ${pidfile} ]; then
+            echo -n $"Graceful shutdown of old $prog: "
+            killproc -p ${oldbinpidfile} ${prog} -QUIT
+            RETVAL=$?
+            echo
+            return
+        fi
+    done
+
+    echo $"Upgrade failed!"
+    RETVAL=1
+}
+
+configtest() {
+    if [ "$#" -ne 0 ] ; then
+        case "$1" in
+            -q)
+                FLAG=$1
+                ;;
+            *)
+                ;;
+        esac
+        shift
+    fi
+    ${nginx} -t -c ${conffile} $FLAG
+    RETVAL=$?
+    return $RETVAL
+}
+
+rh_status() {
+    status -p ${pidfile} ${nginx}
+}
+
+# See how we were called.
+case "$1" in
+    start)
+        rh_status >/dev/null 2>&1 && exit 0
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    status)
+        rh_status
+        RETVAL=$?
+        ;;
+    restart)
+        configtest -q || exit $RETVAL
+        stop
+        start
+        ;;
+    upgrade)
+        rh_status >/dev/null 2>&1 || exit 0
+        upgrade
+        ;;
+    condrestart|try-restart)
+        if rh_status >/dev/null 2>&1; then
+            stop
+            start
+        fi
+        ;;
+    force-reload|reload)
+        reload
+        ;;
+    configtest)
+        configtest
+        ;;
+    *)
+        echo $"Usage: $prog {start|stop|restart|condrestart|try-restart|force-reload|upgrade|reload|status|help|configtest}"
+        RETVAL=2
+esac
+
+exit $RETVAL
+#END---------------------------------
+
+10. 创建 /etc/sysconfig/nginx
+# Configuration file for the nginx service.
+
+NGINX=/usr/local/nginx/sbin/nginx
+CONFFILE=/usr/local/nginx/conf/nginx.conf
+
+11. 编辑 /usr/local/nginx/conf/nginx.conf
+#pid        logs/nginx.pid;
+pid     /var/run/nginx.pid;
+
+12. 更新nginx.conf
+
+#user  nobody;
+worker_processes  1;
+
+#error_log  logs/error.log;
+#error_log  logs/error.log  notice;
+#error_log  logs/error.log  info;
+
+#pid        logs/nginx.pid;
+pid	/var/run/nginx.pid;
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    include       mime.types;
+    default_type  application/octet-stream;
+
+    #log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+    #                  '$status $body_bytes_sent "$http_referer" '
+    #                  '"$http_user_agent" "$http_x_forwarded_for"';
+
+    #access_log  logs/access.log  main;
+
+    sendfile        on;
+    #tcp_nopush     on;
+
+    #keepalive_timeout  0;
+    keepalive_timeout  65;
+
+    #gzip  on;
+
+    server {
+        listen       80;
+        server_name  localhost;
+
+        #charset koi8-r;
+
+        #access_log  logs/host.access.log  main;
+
+        location / {
+            root   html;
+            index  index.html index.htm;
+        }
+
+        #error_page  404              /404.html;
+
+        # redirect server error pages to the static page /50x.html
+        #
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html {
+            root   html;
+        }
+
+        # proxy the PHP scripts to Apache listening on 127.0.0.1:80
+        #
+        #location ~ \.php$ {
+        #    proxy_pass   http://127.0.0.1;
+        #}
+
+        # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
+        #
+        #location ~ \.php$ {
+        #    root           html;
+        #    fastcgi_pass   127.0.0.1:9000;
+        #    fastcgi_index  index.php;
+        #    fastcgi_param  SCRIPT_FILENAME  /scripts$fastcgi_script_name;
+        #    include        fastcgi_params;
+        #}
+
+        # deny access to .htaccess files, if Apache's document root
+        # concurs with nginx's one
+        #
+        #location ~ /\.ht {
+        #    deny  all;
+        #}
+
+	# sample handlers
+        #location /on_play {
+        #    if ($arg_pageUrl ~* localhost) {
+        #        return 201;
+        #    }
+        #    return 202;
+        #}
+        #location /on_publish {
+        #    return 201;
+        #}
+
+        #location /vod {
+        #    alias /var/myvideos;
+        #}
+
+        # rtmp stat
+        location /stat {
+            rtmp_stat all;
+            rtmp_stat_stylesheet stat.xsl;
+        }
+        location /stat.xsl {
+            # you can move stat.xsl to a different location
+            root  /root/nginx-rtmp-module-1.1.6;
+        }
+
+        # rtmp control
+        location /control {
+            rtmp_control all;
+        }
+    }
+
+
+    # another virtual host using mix of IP-, name-, and port-based configuration
+    #
+    #server {
+    #    listen       8000;
+    #    listen       somename:8080;
+    #    server_name  somename  alias  another.alias;
+
+    #    location / {
+    #        root   html;
+    #        index  index.html index.htm;
+    #    }
+    #}
+
+
+    # HTTPS server
+    #
+    #server {
+    #    listen       443 ssl;
+    #    server_name  localhost;
+
+    #    ssl_certificate      cert.pem;
+    #    ssl_certificate_key  cert.key;
+
+    #    ssl_session_cache    shared:SSL:1m;
+    #    ssl_session_timeout  5m;
+
+    #    ssl_ciphers  HIGH:!aNULL:!MD5;
+    #    ssl_prefer_server_ciphers  on;
+
+    #    location / {
+    #        root   html;
+    #        index  index.html index.htm;
+    #    }
+    #}
+
+}
+
+
+rtmp {
+    server {
+        listen 1935;
+        ping 30s;
+        notify_method get;
+
+        application myapp {
+            live on;
+
+            # sample play/publish handlers
+            #on_play http://localhost:8080/on_play;
+            #on_publish http://localhost:8080/on_publish;
+
+            # sample recorder
+            #recorder rec1 {
+            #    record all;
+            #    record_interval 30s;
+            #    record_path /tmp;
+            #    record_unique on;
+            #}
+
+            # sample HLS
+            # hls on;
+            $ hls_path /tmp/hls;
+            $ hls_sync 100ms;
+
+            # 使用pull或push实现视频数据分发
+            pull rtmp://172.16.2.190/myapp; #从视频源拉取, 用于分发数据
+            push rtmp://172.16.2.190/myapp; #将自身视频数据主动推到目标, 用于分发数据
+        }
+
+        # Video on demand
+        #application vod {
+        #    play /var/Videos;
+        #}
+
+        # Video on demand over HTTP
+        #application vod_http {
+        #    play http://localhost:8080/vod/;
+        #}
+    }
+}
+
+13. mkdir /tmp/hls
+(统计在线人数参考: http://www.cnblogs.com/dyllove98/archive/2013/06/09/3129912.html)
+
+14. “mystream”就是输出时的播放路径/串码流
+rtmp://172.16.2.252/myapp?carg=1/mystream?sarg=2
+
+ffmpeg -re -i /tmp/mp4/demo.mp4 -c copy -f flv rtmp://172.16.2.252/myapp/mystream
+

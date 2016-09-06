@@ -1,0 +1,107 @@
+\hypertarget{class_c_trans_cluster_attempter_sink}{}\section{C\+Trans\+Cluster\+Attempter\+Sink Class Reference}
+\label{class_c_trans_cluster_attempter_sink}\index{C\+Trans\+Cluster\+Attempter\+Sink@{C\+Trans\+Cluster\+Attempter\+Sink}}
+Inheritance diagram for C\+Trans\+Cluster\+Attempter\+Sink\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.359551cm]{class_c_trans_cluster_attempter_sink}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_adfbf7290a2ec7e493347fe5ad5333187}{}virtual bool {\bfseries Is\+Valid} ()\label{class_c_trans_cluster_attempter_sink_adfbf7290a2ec7e493347fe5ad5333187}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_a75f51d5ee87f9b2743566e4e407afba6}{}virtual bool {\bfseries Release} ()\label{class_c_trans_cluster_attempter_sink_a75f51d5ee87f9b2743566e4e407afba6}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_a6c4cef6dcb56400d39337cf9ef5432a3}{}virtual void $\ast$ {\bfseries Query\+Interface} (D\+W\+O\+R\+D dw\+Query\+Ver)\label{class_c_trans_cluster_attempter_sink_a6c4cef6dcb56400d39337cf9ef5432a3}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_a950966ea753ca1eb3f97ddbd06a94f79}{}virtual bool {\bfseries Init\+Svr} (D\+W\+O\+R\+D dw\+Max\+Connect\+Num)\label{class_c_trans_cluster_attempter_sink_a950966ea753ca1eb3f97ddbd06a94f79}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_a14e38a31ba256d407896fe3f0d5d239a}{}virtual bool {\bfseries Start\+Svr} ()\label{class_c_trans_cluster_attempter_sink_a14e38a31ba256d407896fe3f0d5d239a}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_adfc96df568f7e16836eadf532e332bb5}{}virtual bool {\bfseries Stop\+Svr} ()\label{class_c_trans_cluster_attempter_sink_adfc96df568f7e16836eadf532e332bb5}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_a2ac2e1d8f478dd89e011acf522754350}{}U\+N\+D\+W\+O\+R\+D {\bfseries Get\+Local\+I\+D} ()\label{class_c_trans_cluster_attempter_sink_a2ac2e1d8f478dd89e011acf522754350}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_ae36d6de6bcfd07f1dab7639c578bcfd6}{}virtual bool {\bfseries Reload\+Lua\+Script} ()\label{class_c_trans_cluster_attempter_sink_ae36d6de6bcfd07f1dab7639c578bcfd6}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_ad4899c56b5d19a9911f0d1c4b636f4d8}{}bool {\bfseries Req\+Sync\+Data} ()\label{class_c_trans_cluster_attempter_sink_ad4899c56b5d19a9911f0d1c4b636f4d8}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_aa0c3c719303e9d669d6b6b71b07eb36d}{}void {\bfseries Clear\+Mt\+Data\+Cache} ()\label{class_c_trans_cluster_attempter_sink_aa0c3c719303e9d669d6b6b71b07eb36d}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_a94ec6b7d371e95e6977493e0008cd3a1}{}bool {\bfseries Is\+Synch\+Data\+Success} ()\label{class_c_trans_cluster_attempter_sink_a94ec6b7d371e95e6977493e0008cd3a1}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_a81d0c7e2d1b0ba11b05327bb8609d5c0}{}\hyperlink{class_c_business_module_m}{C\+Business\+Module\+M} $\ast$ {\bfseries Get\+Business\+Module\+M} ()\label{class_c_trans_cluster_attempter_sink_a81d0c7e2d1b0ba11b05327bb8609d5c0}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_ad4437c46881aab84b8cbeb287a2b9515}{}virtual void {\bfseries On\+Cluster\+Event\+Notify} (P\+C\+L\+U\+S\+T\+E\+R\+\_\+\+E\+V\+E\+N\+T p\+Cluster\+Event)\label{class_c_trans_cluster_attempter_sink_ad4437c46881aab84b8cbeb287a2b9515}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_aac5820732868ff6624761368964111a8}{}virtual void {\bfseries On\+Cluster\+Trans\+Data\+Event} (U\+N\+D\+W\+O\+R\+D udw\+Src\+Svr\+I\+D, C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Data, W\+O\+R\+D w\+Data\+Size)\label{class_c_trans_cluster_attempter_sink_aac5820732868ff6624761368964111a8}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_a67d4542fde44d05b248dbc967d362988}{}virtual bool {\bfseries On\+Recv\+Event} (N\+T\+Y\+\_\+\+I\+O\+Recv\+Event $\ast$p\+Recv\+Event, C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Data, W\+O\+R\+D w\+Data\+Size)\label{class_c_trans_cluster_attempter_sink_a67d4542fde44d05b248dbc967d362988}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_a59f9eb38b50c04edfc6d5d4b2fec099a}{}virtual bool {\bfseries On\+Close\+Event} (N\+T\+Y\+\_\+\+I\+O\+Close\+Event $\ast$p\+Close\+Event)\label{class_c_trans_cluster_attempter_sink_a59f9eb38b50c04edfc6d5d4b2fec099a}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_afd48c5ad58010c0594831c626a6e9032}{}virtual bool {\bfseries On\+Req\+Login} (D\+W\+O\+R\+D dw\+Index\+I\+D, D\+W\+O\+R\+D dw\+Round\+I\+D, C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Data, W\+O\+R\+D w\+Data\+Size)\label{class_c_trans_cluster_attempter_sink_afd48c5ad58010c0594831c626a6e9032}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_a8ad3ea1c35ee677756078fec87dab890}{}virtual bool {\bfseries Trans\+Data\+To\+Dst\+Svr} (U\+N\+D\+W\+O\+R\+D udw\+Ip\+Port\+I\+D, C\+O\+M\+M\+A\+N\+D cmd, char $\ast$p\+Data, W\+O\+R\+D w\+Size)\label{class_c_trans_cluster_attempter_sink_a8ad3ea1c35ee677756078fec87dab890}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_ab7314e7e514efdb8f0effd49bffcdeea}{}virtual bool {\bfseries Send\+Data\+To\+Local\+User} (unsigned int uid, C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Data, unsigned short n\+Size)\label{class_c_trans_cluster_attempter_sink_ab7314e7e514efdb8f0effd49bffcdeea}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_a9d8f27f2887f454341603388a2a9f9a6}{}virtual bool {\bfseries Send\+Data\+To\+Local\+User} (unsigned int un\+Version, unsigned int uid, C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Data, unsigned short n\+Size)\label{class_c_trans_cluster_attempter_sink_a9d8f27f2887f454341603388a2a9f9a6}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_aa89c38842400d08ede4bd65fa033ced2}{}virtual bool {\bfseries Send\+Data\+To\+Dst\+Svr} (unsigned long long dest, unsigned int un\+Version, C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Data, unsigned short n\+Size)\label{class_c_trans_cluster_attempter_sink_aa89c38842400d08ede4bd65fa033ced2}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_a119e0adab962054ec39d57760806d819}{}virtual bool {\bfseries Send\+Data\+To\+All\+Svr} (unsigned int un\+Version, C\+O\+M\+M\+A\+N\+D command, char $\ast$p\+Data, unsigned short n\+Size)\label{class_c_trans_cluster_attempter_sink_a119e0adab962054ec39d57760806d819}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_a6eaad21af9af23f58bd09f3793f74b61}{}virtual bool {\bfseries Register\+Cmd} (short module\+\_\+id, unsigned short cmd)\label{class_c_trans_cluster_attempter_sink_a6eaad21af9af23f58bd09f3793f74b61}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_a23072b34b9d471b3ff6935388c72f3a7}{}virtual void {\bfseries User\+Data\+Sync\+Notify} ()\label{class_c_trans_cluster_attempter_sink_a23072b34b9d471b3ff6935388c72f3a7}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_a728f8cf8b63767e707c915306f6605cb}{}I\+Cluster\+Trans\+Data $\ast$ {\bfseries m\+\_\+p\+I\+Cluster\+Data}\label{class_c_trans_cluster_attempter_sink_a728f8cf8b63767e707c915306f6605cb}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_a9a459012b13af593444bdda777180c8e}{}S\+V\+R\+I\+D {\bfseries m\+\_\+local\+I\+P\+Port\+I\+D}\label{class_c_trans_cluster_attempter_sink_a9a459012b13af593444bdda777180c8e}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_ab0649d19e7dd404defa2051f4c2d7d59}{}S\+V\+R\+I\+D {\bfseries m\+\_\+synch\+Svr\+I\+D}\label{class_c_trans_cluster_attempter_sink_ab0649d19e7dd404defa2051f4c2d7d59}
+
+\item 
+\hypertarget{class_c_trans_cluster_attempter_sink_a694118f315c08a7810610de967df85aa}{}\hyperlink{class_c_business_module_m}{C\+Business\+Module\+M} {\bfseries m\+\_\+business\+Module}\label{class_c_trans_cluster_attempter_sink_a694118f315c08a7810610de967df85aa}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Trans\+Cluster\+Attempter\+Sink.\+h\item 
+Trans\+Cluster\+Attempter\+Sink.\+cpp\end{DoxyCompactItemize}

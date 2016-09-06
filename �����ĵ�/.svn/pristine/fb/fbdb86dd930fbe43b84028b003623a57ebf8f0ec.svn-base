@@ -1,0 +1,22 @@
+\hypertarget{class_i_group_info_interface}{}\section{I\+Group\+Info\+Interface Class Reference}
+\label{class_i_group_info_interface}\index{I\+Group\+Info\+Interface@{I\+Group\+Info\+Interface}}
+Inheritance diagram for I\+Group\+Info\+Interface\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_i_group_info_interface}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_i_group_info_interface_a449226e231f5e5994e47cc9c9778796c}{}virtual void {\bfseries Add\+Grop\+User} (unsigned int gid, unsigned int uid, unsigned char is\+Owner, unsigned char is\+Manageer)=0\label{class_i_group_info_interface_a449226e231f5e5994e47cc9c9778796c}
+
+\item 
+\hypertarget{class_i_group_info_interface_a480bbc075a0431b39b3b8b9b0e8188a8}{}virtual D\+W\+O\+R\+D {\bfseries Query\+Gropu\+Admin} (unsigned int gid)=0\label{class_i_group_info_interface_a480bbc075a0431b39b3b8b9b0e8188a8}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+business/trans.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,16 @@
+\hypertarget{struct_a_r_command_basic_type}{}\section{A\+R\+Command\+Basic\+Type Struct Reference}
+\label{struct_a_r_command_basic_type}\index{A\+R\+Command\+Basic\+Type@{A\+R\+Command\+Basic\+Type}}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{struct_a_r_command_basic_type_aff9819ec5ae53f14f95064ad0f02a10e}{}D\+W\+O\+R\+D {\bfseries command\+I\+D}\label{struct_a_r_command_basic_type_aff9819ec5ae53f14f95064ad0f02a10e}
+
+\item 
+\hypertarget{struct_a_r_command_basic_type_a7c056d3eaec107e2a882accc82e289d9}{}en\+Room\+Basic\+Info\+Type {\bfseries type}\label{struct_a_r_command_basic_type_a7c056d3eaec107e2a882accc82e289d9}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+business/businessdef.\+h\end{DoxyCompactItemize}

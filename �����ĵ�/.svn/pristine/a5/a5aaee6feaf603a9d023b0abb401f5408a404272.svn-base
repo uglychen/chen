@@ -1,0 +1,19 @@
+\hypertarget{class_i_connect_media_svr}{}\section{I\+Connect\+Media\+Svr Class Reference}
+\label{class_i_connect_media_svr}\index{I\+Connect\+Media\+Svr@{I\+Connect\+Media\+Svr}}
+Inheritance diagram for I\+Connect\+Media\+Svr\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_i_connect_media_svr}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_i_connect_media_svr_a4467677cabe5986aebeeef871c715dd4}{}virtual void {\bfseries Connect\+To\+Media\+Svr} (U\+N\+D\+W\+O\+R\+D udw\+Stream\+I\+D, E\+M\+O\+T av\+Type)=0\label{class_i_connect_media_svr_a4467677cabe5986aebeeef871c715dd4}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+mediasvr.\+h\end{DoxyCompactItemize}

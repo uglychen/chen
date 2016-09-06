@@ -1,0 +1,29 @@
+\hypertarget{class_c_redis_client}{}\section{C\+Redis\+Client Class Reference}
+\label{class_c_redis_client}\index{C\+Redis\+Client@{C\+Redis\+Client}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_redis_client_ae5a50655da1215c7de3c9f8fcffdf9af}{}bool {\bfseries Init\+Redis\+Client} (const char $\ast$psz\+Server\+Addr, const W\+O\+R\+D w\+Port)\label{class_c_redis_client_ae5a50655da1215c7de3c9f8fcffdf9af}
+
+\item 
+\hypertarget{class_c_redis_client_acc486f7f72157c73eff622d78f62527c}{}bool {\bfseries Upload\+Load\+Data\+To\+Redis} (const char $\ast$psz\+Local\+Data\+Center\+I\+D, const char $\ast$psz\+Key, const char $\ast$psz\+Value)\label{class_c_redis_client_acc486f7f72157c73eff622d78f62527c}
+
+\item 
+\hypertarget{class_c_redis_client_ad8318ae06ca2fe7c0a091531b1c9fc30}{}bool {\bfseries Upload\+Data} (U\+N\+D\+W\+O\+R\+D udw\+Stream\+I\+D, const char $\ast$psz\+Ip, W\+O\+R\+D w\+Port, E\+M\+D\+\_\+\+S\+O\+U\+R\+C\+E\+\_\+\+T\+Y\+P\+E est\+Type, E\+M\+O\+T av\+Type, const char $\ast$psz\+City=\char`\"{}\char`\"{})\label{class_c_redis_client_ad8318ae06ca2fe7c0a091531b1c9fc30}
+
+\item 
+\hypertarget{class_c_redis_client_a6cc76ae6274c5683e260cb498030f3f2}{}bool {\bfseries Remove\+Data} (U\+N\+D\+W\+O\+R\+D udw\+Stream\+I\+D, const char $\ast$psz\+Ip, W\+O\+R\+D w\+Port, E\+M\+D\+\_\+\+S\+O\+U\+R\+C\+E\+\_\+\+T\+Y\+P\+E est\+Type, E\+M\+O\+T av\+Type, const char $\ast$psz\+City=\char`\"{}\char`\"{})\label{class_c_redis_client_a6cc76ae6274c5683e260cb498030f3f2}
+
+\item 
+\hypertarget{class_c_redis_client_ab780473ed7b6a292fabf7454b93958f3}{}bool {\bfseries Remove\+Load\+Data\+From\+Redis} (const char $\ast$psz\+Local\+Data\+Center\+I\+D, const char $\ast$psz\+Ip, W\+O\+R\+D w\+Port)\label{class_c_redis_client_ab780473ed7b6a292fabf7454b93958f3}
+
+\item 
+\hypertarget{class_c_redis_client_ad3088741408262361de5fdc005e9e0fd}{}bool {\bfseries Query\+Server} (U\+N\+D\+W\+O\+R\+D udw\+Stream\+I\+D, E\+M\+O\+T av\+Type, char $\ast$psz\+Ip, W\+O\+R\+D \&w\+Port)\label{class_c_redis_client_ad3088741408262361de5fdc005e9e0fd}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Redis\+Client.\+h\item 
+Redis\+Client.\+cpp\end{DoxyCompactItemize}

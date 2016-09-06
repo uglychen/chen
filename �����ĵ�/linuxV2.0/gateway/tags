@@ -1,0 +1,69 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BLUE	Logger.cpp	25;"	d	file:
+BUILD_STREAMID	GatewayAttempterSink.cpp	117;"	d	file:
+CGatewayAttempterSink	GatewayAttempterSink.cpp	/^CGatewayAttempterSink::CGatewayAttempterSink()$/;"	f	class:CGatewayAttempterSink
+CGatewayAttempterSink	GatewayAttempterSink.h	/^class CGatewayAttempterSink:public IAttemperEngineSink$/;"	c
+CLogger	Logger.cpp	/^CLogger::CLogger(ILogOutput *pILogOutput)$/;"	f	class:CLogger
+CLogger	Logger.h	/^class CLogger$/;"	c
+COL	Logger.cpp	21;"	d	file:
+CONNECT_INFO	GatewayAttempterSink.h	/^}CONNECT_INFO;$/;"	t	typeref:struct:tagConnectInfo
+CYAN	Logger.cpp	27;"	d	file:
+CheckClientIsLogin	GatewayAttempterSink.cpp	/^inline bool CGatewayAttempterSink::CheckClientIsLogin(DWORD dwIndexID,DWORD dwRoundID,DWORD dwCmd)$/;"	f	class:CGatewayAttempterSink
+GRAY	Logger.cpp	29;"	d	file:
+GREEN	Logger.cpp	23;"	d	file:
+InitServer	GatewayAttempterSink.cpp	/^bool CGatewayAttempterSink::InitServer(DWORD dwMaxConnectNum, char* ip, WORD wdPort)$/;"	f	class:CGatewayAttempterSink
+IsValid	GatewayAttempterSink.h	/^	virtual bool  IsValid() {return this != NULL;}$/;"	f	class:CGatewayAttempterSink
+LIBRARY	makefile	/^LIBRARY=-ldl -lrt -lnsl -lpthread$/;"	m
+MAGENTA	Logger.cpp	26;"	d	file:
+MAKEPARA	makefile	/^MAKEPARA=-fpic -W -Wall -O3 -pipe -D_REENTRANT -m64 -g$/;"	m
+OBJECTLIST	makefile	/^OBJECTLIST=GatewayAttempterSink.o Logger.o gatewaysvr.o$/;"	m
+OBJECTNAME	makefile	/^OBJECTNAME=gatewaysvr$/;"	m
+OTHEROBJECT	makefile	/^OTHEROBJECT=..\/globaldef\/MemManage.o ..\/globaldef\/ServiceThread.o ..\/globaldef\/globaldef.o ..\/globaldef\/myFile.o ..\/globaldef\/ReadIniFile.o$/;"	m
+OUT_DEBUG	gatewaysvr.h	40;"	d
+OUT_DEBUGEX	gatewaysvr.h	43;"	d
+OUT_ERROR	gatewaysvr.h	54;"	d
+OUT_ERROREX	gatewaysvr.h	57;"	d
+OUT_INFO	gatewaysvr.h	33;"	d
+OUT_INFOEX	gatewaysvr.h	36;"	d
+OUT_WARN	gatewaysvr.h	47;"	d
+OUT_WARNEX	gatewaysvr.h	50;"	d
+OnActive	GatewayAttempterSink.cpp	/^bool CGatewayAttempterSink::OnActive(DWORD dwIndexID,DWORD dwRoundID,COMMAND command)$/;"	f	class:CGatewayAttempterSink
+OnCloseEvent	GatewayAttempterSink.cpp	/^bool CGatewayAttempterSink::OnCloseEvent(NTY_IOCloseEvent *pCloseEvent, DWORD dwIpAddr, DWORD dwCloseTime)$/;"	f	class:CGatewayAttempterSink
+OnConnectEvent	GatewayAttempterSink.cpp	/^bool CGatewayAttempterSink::OnConnectEvent(NTY_IOConnectEvent *pAcceptEvent, DWORD dwIpAddr, DWORD dwConnectTime)$/;"	f	class:CGatewayAttempterSink
+OnRecvEvent	GatewayAttempterSink.cpp	/^bool CGatewayAttempterSink::OnRecvEvent(NTY_IORecvEvent *pRecvEvent, COMMAND command, char* pData, WORD wDataSize)$/;"	f	class:CGatewayAttempterSink
+OnReqSvrLogin	GatewayAttempterSink.cpp	/^bool CGatewayAttempterSink::OnReqSvrLogin(DWORD dwIndexID,DWORD dwRoundID,COMMAND command, char* pData, WORD wDataSize)$/;"	f	class:CGatewayAttempterSink
+OnReqUserLogin	GatewayAttempterSink.cpp	/^bool CGatewayAttempterSink::OnReqUserLogin(DWORD dwIndexID,DWORD dwRoundID,COMMAND command, char* pData, WORD wDataSize)$/;"	f	class:CGatewayAttempterSink
+OutDebug	Logger.cpp	/^void CLogger::OutDebug(string fileName,int lineNum,string functionName,string format,...)$/;"	f	class:CLogger
+OutError	Logger.cpp	/^void CLogger::OutError(string fileName,int lineNum,string functionName,string format,...)$/;"	f	class:CLogger
+OutInfo	Logger.cpp	/^void CLogger::OutInfo(string fileName,int lineNum,string functionName,string format,...)$/;"	f	class:CLogger
+OutWarn	Logger.cpp	/^void CLogger::OutWarn(string fileName,int lineNum,string functionName,string format,...)$/;"	f	class:CLogger
+QueryInterface	GatewayAttempterSink.cpp	/^void *  CGatewayAttempterSink::QueryInterface(DWORD dwQueryVer)$/;"	f	class:CGatewayAttempterSink
+RED	Logger.cpp	22;"	d	file:
+Release	GatewayAttempterSink.h	/^	virtual bool  Release(){if(this != NULL) delete this;return true;}$/;"	f	class:CGatewayAttempterSink
+StartServer	GatewayAttempterSink.cpp	/^bool CGatewayAttempterSink::StartServer(char *IP)$/;"	f	class:CGatewayAttempterSink
+StopServer	GatewayAttempterSink.cpp	/^bool CGatewayAttempterSink::StopServer()$/;"	f	class:CGatewayAttempterSink
+WHITE	Logger.cpp	28;"	d	file:
+YELLOW	Logger.cpp	24;"	d	file:
+__LIUJUN_20150728_GATEWAY_ATTEMPTER_SINK_H	GatewayAttempterSink.h	18;"	d
+__LIUJUN_20150728_GATEWAY_SERVER_H	gatewaysvr.h	18;"	d
+__LIUJUN_20150728_LOGGER_H	Logger.h	18;"	d
+dwRoundID	GatewayAttempterSink.h	/^	DWORD			dwRoundID;$/;"	m	struct:tagConnectInfo
+m_dwMaxConnectNum	GatewayAttempterSink.h	/^	DWORD							m_dwMaxConnectNum;			\/\/最大连接数$/;"	m	class:CGatewayAttempterSink
+m_ipPortID	GatewayAttempterSink.h	/^	IPPORTID						m_ipPortID;					\/\/本机$/;"	m	class:CGatewayAttempterSink
+m_pConnectInfo	GatewayAttempterSink.h	/^	CONNECT_INFO					*m_pConnectInfo;			\/\/客户端连接索引$/;"	m	class:CGatewayAttempterSink
+m_pILogOutput	Logger.h	/^	ILogOutput			*m_pILogOutput;$/;"	m	class:CLogger
+m_pITcpAttemperEngine	GatewayAttempterSink.h	/^	ITcpAttemperEngine				*m_pITcpAttemperEngine;$/;"	m	class:CGatewayAttempterSink
+m_tcpNetworkHelper	GatewayAttempterSink.h	/^	CTcpNetworkHelper				m_tcpNetworkHelper;$/;"	m	class:CGatewayAttempterSink
+main	gatewaysvr.cpp	/^int main(int argc, char* argv[])$/;"	f
+tagConnectInfo	GatewayAttempterSink.h	/^typedef struct tagConnectInfo$/;"	s
+udwID	GatewayAttempterSink.h	/^	UNDWORD			udwID;				\/\/客户端ID$/;"	m	struct:tagConnectInfo
+udwPublishStreamID	GatewayAttempterSink.h	/^	UNDWORD			udwPublishStreamID; \/\/上传的流ID$/;"	m	struct:tagConnectInfo
+wClientType	GatewayAttempterSink.h	/^	WORD			wClientType;		\/\/取值globaldef.h:CONNECT_TYPE$/;"	m	struct:tagConnectInfo
+wStatus	GatewayAttempterSink.h	/^	WORD			wStatus;			\/\/0未登录，1登录$/;"	m	struct:tagConnectInfo
+~CGatewayAttempterSink	GatewayAttempterSink.cpp	/^CGatewayAttempterSink::~CGatewayAttempterSink()$/;"	f	class:CGatewayAttempterSink
+~CLogger	Logger.cpp	/^CLogger::~CLogger()$/;"	f	class:CLogger

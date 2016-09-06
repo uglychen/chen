@@ -1,0 +1,40 @@
+\hypertarget{structtag_publish_info}{}\section{tag\+Publish\+Info Struct Reference}
+\label{structtag_publish_info}\index{tag\+Publish\+Info@{tag\+Publish\+Info}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structtag_publish_info_a7e78c49d9c6fcde6425c434a4cac3cae}{}void {\bfseries Release} ()\label{structtag_publish_info_a7e78c49d9c6fcde6425c434a4cac3cae}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structtag_publish_info_a1c9c788e1325a3665fdfc61fb8710e15}{}W\+O\+R\+D {\bfseries w\+Repeat\+Connection\+Counter}\label{structtag_publish_info_a1c9c788e1325a3665fdfc61fb8710e15}
+
+\item 
+\hypertarget{structtag_publish_info_a6ff99a434139ff5979a03a1b2bb98dab}{}int {\bfseries n\+Sleep\+Time}\label{structtag_publish_info_a6ff99a434139ff5979a03a1b2bb98dab}
+
+\item 
+\hypertarget{structtag_publish_info_aaa016a067a071681f33a410fc61095a8}{}E\+N\+U\+M\+\_\+\+M\+D\+T {\bfseries media\+Type}\label{structtag_publish_info_aaa016a067a071681f33a410fc61095a8}
+
+\item 
+\hypertarget{structtag_publish_info_a4c0434dff9ead5205bfef545816b6b85}{}U\+N\+D\+W\+O\+R\+D {\bfseries udw\+Stream\+I\+D}\label{structtag_publish_info_a4c0434dff9ead5205bfef545816b6b85}
+
+\item 
+\hypertarget{structtag_publish_info_ab099b0d8d30c35fdb752a313c5977d59}{}W\+O\+R\+D {\bfseries w\+Src\+Server\+Type}\label{structtag_publish_info_ab099b0d8d30c35fdb752a313c5977d59}
+
+\item 
+\hypertarget{structtag_publish_info_a7fd799b519906c47f4ec3b1e7b58a43c}{}W\+O\+R\+D {\bfseries w\+Dst\+Server\+Type}\label{structtag_publish_info_a7fd799b519906c47f4ec3b1e7b58a43c}
+
+\item 
+\hypertarget{structtag_publish_info_a85c424584bab121bf2e3319abd7fcf9e}{}int {\bfseries n\+Param}\label{structtag_publish_info_a85c424584bab121bf2e3319abd7fcf9e}
+
+\item 
+\hypertarget{structtag_publish_info_afd191af35466e54c048422d35c341ff1}{}U\+N\+D\+W\+O\+R\+D {\bfseries udw\+Svr\+I\+D}\label{structtag_publish_info_afd191af35466e54c048422d35c341ff1}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Media\+Attempter\+Sink.\+h\end{DoxyCompactItemize}

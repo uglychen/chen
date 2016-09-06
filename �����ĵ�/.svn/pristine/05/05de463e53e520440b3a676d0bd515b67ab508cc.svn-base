@@ -1,0 +1,95 @@
+\hypertarget{struct_c_cmd_buffer_parse}{}\section{C\+Cmd\+Buffer\+Parse Struct Reference}
+\label{struct_c_cmd_buffer_parse}\index{C\+Cmd\+Buffer\+Parse@{C\+Cmd\+Buffer\+Parse}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_afb85c9e772d63a576d0a8a8ba8c97363}{}{\bfseries C\+Cmd\+Buffer\+Parse} (I\+D\+B\+Task\+Request $\ast$p\+I\+D\+B\+Task\+Request, \hyperlink{class_i_query_data_cache_interface}{I\+Query\+Data\+Cache\+Interface} $\ast$p\+I\+Query\+Data\+Cache\+Interface)\label{struct_c_cmd_buffer_parse_afb85c9e772d63a576d0a8a8ba8c97363}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a2f98fbabc228226db6a69747c2651ef2}{}\hyperlink{class_i_ios_push_interface}{I\+Ios\+Push\+Interface} $\ast$ {\bfseries Get\+Ios\+Push\+Interface} ()\label{struct_c_cmd_buffer_parse_a2f98fbabc228226db6a69747c2651ef2}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a2853c8ea2d436b6ff4eeee01e234aade}{}void {\bfseries Parse\+Buffer} (const char $\ast$p\+Buffer, const D\+W\+O\+R\+D \&n\+Size)\label{struct_c_cmd_buffer_parse_a2853c8ea2d436b6ff4eeee01e234aade}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a6ead40af5fcde1bf3698c2d9abc743b7}{}bool {\bfseries write\+To\+D\+B} (B\+Y\+T\+E commit\+Type)\label{struct_c_cmd_buffer_parse_a6ead40af5fcde1bf3698c2d9abc743b7}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a3bd62018d0cfa9401108c52d9a1b270e}{}void {\bfseries push\+Msg} (const char $\ast$token)\label{struct_c_cmd_buffer_parse_a3bd62018d0cfa9401108c52d9a1b270e}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a2364b72fd54909845e4e308a94bd04b1}{}std\+::string {\bfseries get\+Out\+Put\+Str} ()\label{struct_c_cmd_buffer_parse_a2364b72fd54909845e4e308a94bd04b1}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_aa26c7503ffec37c780f2545f0435c516}{}void {\bfseries clear\+Out\+Put\+Str} ()\label{struct_c_cmd_buffer_parse_aa26c7503ffec37c780f2545f0435c516}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a56ab2b415ab4cbce8cb5c9574030f32e}{}void {\bfseries add\+String} (const std\+::string \&addition)\label{struct_c_cmd_buffer_parse_a56ab2b415ab4cbce8cb5c9574030f32e}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_aad668593225f380ca70ddd50ce20454c}{}void {\bfseries add\+Transfered\+Buffer} (const D\+W\+O\+R\+D \&offset, const D\+W\+O\+R\+D \&size)\label{struct_c_cmd_buffer_parse_aad668593225f380ca70ddd50ce20454c}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a936068a210395edb7ca4cdae9783e5e7}{}void {\bfseries add\+Buffer} (const D\+W\+O\+R\+D \&offset, const D\+W\+O\+R\+D \&size)\label{struct_c_cmd_buffer_parse_a936068a210395edb7ca4cdae9783e5e7}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_ae1a1c0fac03a57a5f8513c1141c22586}{}std\+::string {\bfseries get\+Udw\+Generate\+Time} ()\label{struct_c_cmd_buffer_parse_ae1a1c0fac03a57a5f8513c1141c22586}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a742030d897eaff9363224741dfb16b88}{}D\+W\+O\+R\+D {\bfseries get\+Generate\+Time} ()\label{struct_c_cmd_buffer_parse_a742030d897eaff9363224741dfb16b88}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_af601c3968922a01cb6c9830c794ee129}{}D\+W\+O\+R\+D {\bfseries get\+Buffer\+Size} ()\label{struct_c_cmd_buffer_parse_af601c3968922a01cb6c9830c794ee129}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a3872f77324d21e0b8bdc04c95d3bfce2}{}B\+Y\+T\+E {\bfseries get1\+Bytes\+Ret\+B\+Y\+T\+E} (const D\+W\+O\+R\+D \&offset)\label{struct_c_cmd_buffer_parse_a3872f77324d21e0b8bdc04c95d3bfce2}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_abbb38e509c5260ac6cab08a87ffd5466}{}W\+O\+R\+D {\bfseries get2\+Bytes\+Ret\+W\+O\+R\+D} (const D\+W\+O\+R\+D \&offset)\label{struct_c_cmd_buffer_parse_abbb38e509c5260ac6cab08a87ffd5466}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a692c61a6ffc67fd63489f67552271f16}{}D\+W\+O\+R\+D {\bfseries get4\+Bytes\+Ret\+D\+W\+O\+R\+D} (const D\+W\+O\+R\+D \&offset)\label{struct_c_cmd_buffer_parse_a692c61a6ffc67fd63489f67552271f16}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a86639e880142da25eaddc6e2e50bc3fb}{}std\+::string {\bfseries get8\+Bytes\+Ret\+U\+N\+D\+W\+O\+R\+D} (const D\+W\+O\+R\+D \&offset)\label{struct_c_cmd_buffer_parse_a86639e880142da25eaddc6e2e50bc3fb}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a6e63fa3ffe675bb4b3578ecc6494f055}{}void {\bfseries set\+Json\+Buffer} (const D\+W\+O\+R\+D \&offset, const D\+W\+O\+R\+D \&size)\label{struct_c_cmd_buffer_parse_a6e63fa3ffe675bb4b3578ecc6494f055}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a9b6f8c65e41d83de973eb501f551043c}{}void {\bfseries uncompress\+And\+Set\+Data} ()\label{struct_c_cmd_buffer_parse_a9b6f8c65e41d83de973eb501f551043c}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a9212dd0b729d59fa4e8ba2361a5615a6}{}void {\bfseries json\+Parse} ()\label{struct_c_cmd_buffer_parse_a9212dd0b729d59fa4e8ba2361a5615a6}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a42cf01bf92b37d42c469a7063d892225}{}void {\bfseries add\+Json\+String\+Value} (const std\+::string \&value)\label{struct_c_cmd_buffer_parse_a42cf01bf92b37d42c469a7063d892225}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a145b4844f50ba092ccd3ec53efe82da8}{}void {\bfseries add\+Json\+Int\+Value} (const std\+::string \&value)\label{struct_c_cmd_buffer_parse_a145b4844f50ba092ccd3ec53efe82da8}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_acc10d5718d354a16f637837e4f727cf2}{}void {\bfseries release\+Json\+Buffer} ()\label{struct_c_cmd_buffer_parse_acc10d5718d354a16f637837e4f727cf2}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a84419d2174c34be4608c87e4497b1ee2}{}void {\bfseries add\+Cur\+Time\+Str} ()\label{struct_c_cmd_buffer_parse_a84419d2174c34be4608c87e4497b1ee2}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a26f765f82d23fafe9fbee94168a5cfc8}{}D\+W\+O\+R\+D {\bfseries get\+Group\+Admin\+I\+D} (const D\+W\+O\+R\+D \&dw\+User)\label{struct_c_cmd_buffer_parse_a26f765f82d23fafe9fbee94168a5cfc8}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_a1579271f859e23fd7da7120854778af5}{}void {\bfseries add\+Convert\+Json\+Buffer} (const std\+::string \&value, const D\+W\+O\+R\+D \&len1, const D\+W\+O\+R\+D \&len2)\label{struct_c_cmd_buffer_parse_a1579271f859e23fd7da7120854778af5}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_af50f8c13162a39cd059a7aec59b5aca3}{}void {\bfseries gbk\+To\+Utf8} ()\label{struct_c_cmd_buffer_parse_af50f8c13162a39cd059a7aec59b5aca3}
+
+\item 
+\hypertarget{struct_c_cmd_buffer_parse_adaca45bae1c36077e2e808d6cd574986}{}void {\bfseries add\+Sub\+Str} (std\+::string src\+Str, const D\+W\+O\+R\+D \&len1, const D\+W\+O\+R\+D \&len2)\label{struct_c_cmd_buffer_parse_adaca45bae1c36077e2e808d6cd574986}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Cmd\+Buffer\+Parse.\+h\item 
+Cmd\+Buffer\+Parse.\+cpp\end{DoxyCompactItemize}

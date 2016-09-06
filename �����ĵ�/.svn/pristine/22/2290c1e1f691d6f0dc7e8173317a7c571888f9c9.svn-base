@@ -1,0 +1,4 @@
+[SYSCONFIG]
+#°ó¶¨IPºÍ¶Ë¿Ú
+BIND_IP=0.0.0.0
+BIND_PORT=35200

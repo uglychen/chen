@@ -1,0 +1,16 @@
+1. wget http://nginx.org/download/nginx-1.6.1.tar.gz
+2. tar -zxvf nginx-1.6.1.tar.gz
+3. yum install git
+4. git clone git://github.com/arut/nginx-rtmp-module.git
+5. yum groupinstall -y "Development Tools" "Development Libraries"
+6. yum -y install pcre-devel
+7. yum -y install openssl openssl-devel 
+8. ./configure --add-module=/usr/build/nginx-rtmp-module/ 
+    (refer: https://github.com/arut/nginx-rtmp-module/wiki/Getting-started-with-nginx-rtmp)
+9. make
+10. make install
+
+http://23.226.233.4/001.mp4
+
+FFMpeg (http://wiki.razuna.com/display/ecp/FFMpeg+Installation+on+CentOS+and+RedHat#FFMpegInstallationonCentOSandRedHat-Installtheadditionalrepo)
+1. rpm -Uhv http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm

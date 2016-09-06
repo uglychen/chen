@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['tagbasicdata',['tagBasicData',['../structtag_basic_data.html',1,'']]],
+  ['tagbasicuser',['tagBasicUser',['../structtag_basic_user.html',1,'']]],
+  ['tagbusinessconfig',['tagBusinessConfig',['../structtag_business_config.html',1,'']]],
+  ['tagbusinessinfo',['tagBusinessInfo',['../structtag_business_info.html',1,'']]],
+  ['tagconnectinfo',['tagConnectInfo',['../structtag_connect_info.html',1,'']]],
+  ['tagdata',['tagData',['../structtag_data.html',1,'']]],
+  ['tagdatacacheconfig',['tagDataCacheConfig',['../structtag_data_cache_config.html',1,'']]],
+  ['taggroup',['tagGroup',['../structtag_group.html',1,'']]],
+  ['taglineinfo',['tagLineInfo',['../structtag_line_info.html',1,'']]],
+  ['tagmtcache',['tagMtCache',['../structtag_mt_cache.html',1,'']]],
+  ['tagpoint',['tagPoint',['../structtag_point.html',1,'']]],
+  ['tagroom',['tagRoom',['../structtag_room.html',1,'']]],
+  ['tagroombaiscinfo',['tagRoomBaiscInfo',['../structtag_room_baisc_info.html',1,'']]],
+  ['tagroomban',['tagRoomBan',['../structtag_room_ban.html',1,'']]],
+  ['tagroomlive',['tagRoomLive',['../structtag_room_live.html',1,'']]],
+  ['tagroomplayinfo',['tagRoomPlayInfo',['../structtag_room_play_info.html',1,'']]],
+  ['tagtransdatabuffer',['tagTransDataBuffer',['../structtag_trans_data_buffer.html',1,'']]],
+  ['taguncompress',['tagUncompress',['../structtag_uncompress.html',1,'']]],
+  ['taguser',['tagUser',['../structtag_user.html',1,'']]],
+  ['taguserinfo',['tagUserInfo',['../structtag_user_info.html',1,'']]]
+];

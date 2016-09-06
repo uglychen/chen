@@ -1,0 +1,33 @@
+\section{Class Hierarchy}
+This inheritance list is sorted roughly, but not completely, alphabetically\+:\begin{DoxyCompactList}
+\item \contentsline{section}{C\+Logger}{\pageref{class_c_logger}}{}
+\item \contentsline{section}{C\+Redis\+Client}{\pageref{class_c_redis_client}}{}
+\item C\+Service\+Thread\begin{DoxyCompactList}
+\item \contentsline{section}{C\+Trans\+A\+V\+Data\+Thread}{\pageref{class_c_trans_a_v_data_thread}}{}
+\begin{DoxyCompactList}
+\item \contentsline{section}{C\+Trans\+Thread}{\pageref{class_c_trans_thread}}{}
+\end{DoxyCompactList}
+\end{DoxyCompactList}
+\item \contentsline{section}{C\+Stream\+Manage}{\pageref{class_c_stream_manage}}{}
+\item \contentsline{section}{C\+Trans\+A\+V\+Data\+Engine}{\pageref{class_c_trans_a_v_data_engine}}{}
+\item \contentsline{section}{C\+Trans\+Data\+Buffer}{\pageref{class_c_trans_data_buffer}}{}
+\item I\+Attemper\+Engine\+Sink\begin{DoxyCompactList}
+\item \contentsline{section}{C\+Media\+Attempter\+Sink}{\pageref{class_c_media_attempter_sink}}{}
+\item \contentsline{section}{C\+Media\+Udp\+Attempter\+Sink}{\pageref{class_c_media_udp_attempter_sink}}{}
+\end{DoxyCompactList}
+\item I\+Client\+Attemper\+Engine\+Sink\begin{DoxyCompactList}
+\item \contentsline{section}{C\+Media\+Attempter\+Sink}{\pageref{class_c_media_attempter_sink}}{}
+\end{DoxyCompactList}
+\item \contentsline{section}{I\+Connect\+Media\+Svr}{\pageref{class_i_connect_media_svr}}{}
+\begin{DoxyCompactList}
+\item \contentsline{section}{C\+Media\+Attempter\+Sink}{\pageref{class_c_media_attempter_sink}}{}
+\end{DoxyCompactList}
+\item \contentsline{section}{tag\+A\+V\+Data}{\pageref{structtag_a_v_data}}{}
+\item \contentsline{section}{tag\+Connect\+Info}{\pageref{structtag_connect_info}}{}
+\item \contentsline{section}{tag\+Media\+Param}{\pageref{structtag_media_param}}{}
+\item \contentsline{section}{tag\+Publish\+Info}{\pageref{structtag_publish_info}}{}
+\item \contentsline{section}{tag\+Room\+User\+Num}{\pageref{uniontag_room_user_num}}{}
+\item \contentsline{section}{tag\+Stream\+Item}{\pageref{structtag_stream_item}}{}
+\item \contentsline{section}{tag\+Svr\+I\+D}{\pageref{uniontag_svr_i_d}}{}
+\item \contentsline{section}{tag\+Trans\+Data\+Buffer}{\pageref{structtag_trans_data_buffer}}{}
+\end{DoxyCompactList}

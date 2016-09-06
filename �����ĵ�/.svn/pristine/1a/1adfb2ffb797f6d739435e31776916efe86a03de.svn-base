@@ -1,0 +1,54 @@
+\hypertarget{class_c_relation_data_cache}{}\section{C\+Relation\+Data\+Cache Class Reference}
+\label{class_c_relation_data_cache}\index{C\+Relation\+Data\+Cache@{C\+Relation\+Data\+Cache}}
+Inheritance diagram for C\+Relation\+Data\+Cache\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_c_relation_data_cache}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_relation_data_cache_adfb2a856ff454a696741e3e8c70c949e}{}virtual bool {\bfseries Is\+Valid} ()\label{class_c_relation_data_cache_adfb2a856ff454a696741e3e8c70c949e}
+
+\item 
+\hypertarget{class_c_relation_data_cache_a829afbef1a9eb37abd6dc0579e2004e3}{}virtual bool {\bfseries Release} ()\label{class_c_relation_data_cache_a829afbef1a9eb37abd6dc0579e2004e3}
+
+\item 
+\hypertarget{class_c_relation_data_cache_a2cdbc027af95c2fc5bebb3ba85d49d45}{}virtual void $\ast$ {\bfseries Query\+Interface} (unsigned int dw\+Query\+Ver)\label{class_c_relation_data_cache_a2cdbc027af95c2fc5bebb3ba85d49d45}
+
+\item 
+\hypertarget{class_c_relation_data_cache_a144a15675385645d776e5cf0ea77dd47}{}virtual int {\bfseries Add\+Data} (unsigned int id, unsigned int key, unsigned int value=0)\label{class_c_relation_data_cache_a144a15675385645d776e5cf0ea77dd47}
+
+\item 
+\hypertarget{class_c_relation_data_cache_a8d822cb9f27ee5b4ffe7ed37dea7fe7f}{}virtual bool {\bfseries Is\+Exists} (unsigned int id, unsigned int key)\label{class_c_relation_data_cache_a8d822cb9f27ee5b4ffe7ed37dea7fe7f}
+
+\item 
+\hypertarget{class_c_relation_data_cache_a19a5af0509048a6919faa82e0bd21681}{}virtual bool {\bfseries Remove\+Data} (unsigned int id)\label{class_c_relation_data_cache_a19a5af0509048a6919faa82e0bd21681}
+
+\item 
+\hypertarget{class_c_relation_data_cache_a0fe2f5847ccb83cecc045fd51b263f09}{}virtual int {\bfseries Remove\+Data} (unsigned int id, unsigned int key)\label{class_c_relation_data_cache_a0fe2f5847ccb83cecc045fd51b263f09}
+
+\item 
+\hypertarget{class_c_relation_data_cache_acaf3d8281a2e24d9508e2783c21f2d22}{}virtual unsigned int {\bfseries Query\+Data\+By\+Id} (unsigned int id)\label{class_c_relation_data_cache_acaf3d8281a2e24d9508e2783c21f2d22}
+
+\item 
+\hypertarget{class_c_relation_data_cache_a1a2322b6366f1ddc54d2c625477c0bac}{}virtual bool {\bfseries Query\+Data\+By\+Id} (unsigned int id, unsigned int key, unsigned int \&value)\label{class_c_relation_data_cache_a1a2322b6366f1ddc54d2c625477c0bac}
+
+\item 
+\hypertarget{class_c_relation_data_cache_a7dca3761b8ee39821cd54eb34b19dea2}{}virtual int {\bfseries Query\+Relation\+List} (unsigned int id, C\+Dword\+Num\+Map \&dword\+Num\+Map)\label{class_c_relation_data_cache_a7dca3761b8ee39821cd54eb34b19dea2}
+
+\item 
+\hypertarget{class_c_relation_data_cache_a9af1206677ab6181ee7059cba84a43a8}{}virtual int {\bfseries Query\+All\+Data} (C\+User\+Data\+Cache\+Map \&basic\+Data\+Map)\label{class_c_relation_data_cache_a9af1206677ab6181ee7059cba84a43a8}
+
+\item 
+\hypertarget{class_c_relation_data_cache_a739f0043b87a7471ea251f0d7d28ad88}{}virtual void {\bfseries Clear\+Data} ()\label{class_c_relation_data_cache_a739f0043b87a7471ea251f0d7d28ad88}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Data\+Cache/Relation\+Data\+Cache.\+h\item 
+Data\+Cache/Relation\+Data\+Cache.\+cpp\end{DoxyCompactItemize}

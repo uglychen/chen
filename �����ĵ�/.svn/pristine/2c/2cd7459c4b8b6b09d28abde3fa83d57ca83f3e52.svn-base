@@ -1,0 +1,37 @@
+\hypertarget{class_i_data_cache}{}\section{I\+Data\+Cache Class Reference}
+\label{class_i_data_cache}\index{I\+Data\+Cache@{I\+Data\+Cache}}
+Inheritance diagram for I\+Data\+Cache\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.313610cm]{class_i_data_cache}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_i_data_cache_ab8f828315a321b0b48eb595b813ea96d}{}virtual void {\bfseries Set\+Data\+Type} (int n\+Data\+Type)=0\label{class_i_data_cache_ab8f828315a321b0b48eb595b813ea96d}
+
+\item 
+\hypertarget{class_i_data_cache_a993cbde60cea1bea4173940c8f08776d}{}virtual int {\bfseries Get\+Data\+Type} ()=0\label{class_i_data_cache_a993cbde60cea1bea4173940c8f08776d}
+
+\item 
+\hypertarget{class_i_data_cache_aa338cb7e7601288a9a467178cea7a36b}{}virtual void {\bfseries Set\+Cache\+Type} (string str\+Cache\+Type)=0\label{class_i_data_cache_aa338cb7e7601288a9a467178cea7a36b}
+
+\item 
+\hypertarget{class_i_data_cache_a8a01030f729971bf4f1f07bb45515598}{}virtual string {\bfseries Get\+Cache\+Type} ()=0\label{class_i_data_cache_a8a01030f729971bf4f1f07bb45515598}
+
+\item 
+\hypertarget{class_i_data_cache_ad65968bc2ecaba95875870f06154586d}{}virtual void {\bfseries Set\+Desc} (string str\+Desc)=0\label{class_i_data_cache_ad65968bc2ecaba95875870f06154586d}
+
+\item 
+\hypertarget{class_i_data_cache_a1c9657c0b85fad8ac7e7dfc6e28e6a04}{}virtual string {\bfseries Get\+Desc} ()=0\label{class_i_data_cache_a1c9657c0b85fad8ac7e7dfc6e28e6a04}
+
+\item 
+\hypertarget{class_i_data_cache_a75f45f6cd83310fe166a977e29361b55}{}virtual void {\bfseries Clear\+Data} ()=0\label{class_i_data_cache_a75f45f6cd83310fe166a977e29361b55}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Data\+Cache/Data\+Cache.\+h\end{DoxyCompactItemize}

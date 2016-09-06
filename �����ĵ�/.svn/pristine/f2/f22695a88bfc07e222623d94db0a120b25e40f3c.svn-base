@@ -1,0 +1,11 @@
+\hypertarget{dir_772b955b001daa3f3424a42de8aabba7}{}\section{Group\+Business\+V1.6.0 Directory Reference}
+\label{dir_772b955b001daa3f3424a42de8aabba7}\index{Group\+Business\+V1.\+6.\+0 Directory Reference@{Group\+Business\+V1.\+6.\+0 Directory Reference}}
+\subsection*{Files}
+\begin{DoxyCompactItemize}
+\item 
+file {\bfseries Group\+Business.\+cpp}
+\item 
+file {\bfseries Group\+Business.\+h}
+\item 
+file {\bfseries Localdef.\+h}
+\end{DoxyCompactItemize}

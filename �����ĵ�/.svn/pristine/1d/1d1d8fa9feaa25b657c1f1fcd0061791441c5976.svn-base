@@ -1,0 +1,34 @@
+\hypertarget{structtag_trans_data_buffer}{}\section{tag\+Trans\+Data\+Buffer Struct Reference}
+\label{structtag_trans_data_buffer}\index{tag\+Trans\+Data\+Buffer@{tag\+Trans\+Data\+Buffer}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structtag_trans_data_buffer_afbd2f2efb0da5304523fef64c934e9df}{}void {\bfseries Set\+Data} (const char $\ast$p\+Data, unsigned short w\+Size)\label{structtag_trans_data_buffer_afbd2f2efb0da5304523fef64c934e9df}
+
+\item 
+\hypertarget{structtag_trans_data_buffer_aa538c2930fd78a14d64b5e96e5e37cfb}{}void {\bfseries Release} ()\label{structtag_trans_data_buffer_aa538c2930fd78a14d64b5e96e5e37cfb}
+
+\item 
+\hypertarget{structtag_trans_data_buffer_ac9ec646f0a806fa30180bf3cf7064754}{}void {\bfseries Set\+Buffer\+Index} (int n\+Index)\label{structtag_trans_data_buffer_ac9ec646f0a806fa30180bf3cf7064754}
+
+\item 
+\hypertarget{structtag_trans_data_buffer_ab7230d54d326b8ad079d7e011be8a385}{}int {\bfseries Get\+Buffer\+Index} ()\label{structtag_trans_data_buffer_ab7230d54d326b8ad079d7e011be8a385}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structtag_trans_data_buffer_a43677f452f1d6a07a0cd0f0360dfa690}{}unsigned short {\bfseries w\+Buffer\+Size}\label{structtag_trans_data_buffer_a43677f452f1d6a07a0cd0f0360dfa690}
+
+\item 
+\hypertarget{structtag_trans_data_buffer_aa37639044cc06061dacd4f93b3c8b2c7}{}unsigned short {\bfseries w\+Data\+Size}\label{structtag_trans_data_buffer_aa37639044cc06061dacd4f93b3c8b2c7}
+
+\item 
+\hypertarget{structtag_trans_data_buffer_a3a44d0b552abc6bcc5c4d2f1d22d7aeb}{}char $\ast$ {\bfseries p\+Buffer}\label{structtag_trans_data_buffer_a3a44d0b552abc6bcc5c4d2f1d22d7aeb}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+business/Trans\+Data\+Buffer.\+h\end{DoxyCompactItemize}
